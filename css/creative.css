@@ -72,6 +72,9 @@ section {
 section.bg-primary a {
   color: white !important; }
 
+section.bg-primary strong {
+  color: white; }
+
 .section-heading {
   margin-top: 0; }
 
@@ -222,12 +225,9 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
-      font-size: 3rem !important;
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    header.masthead .header-content .header-content-inner h2 {
-      font-size: 1.5rem; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -260,20 +260,47 @@ header.masthead {
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
+    header.masthead h1 {
+      font-size: 1.5rem; }
+    header.masthead h2 {
+      font-size: 1rem; } }
+  @media (min-width: 361px) and (max-width: 480px) {
+    header.masthead h1 {
+      font-size: 1.7rem; }
+    header.masthead h2 {
+      font-size: 1.2rem; }
     header.masthead .header-content .header-content-inner img {
       width: 170px; } }
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media (min-width: 361px) and (max-width: 690px) {
+    header.masthead h1 {
+      font-size: 1.7rem; }
+    header.masthead h2 {
+      font-size: 1.2rem; } }
+  @media (min-width: 691px) and (max-width: 767px) {
+    header.masthead h1 {
+      font-size: 3rem; }
+    header.masthead h2 {
+      font-size: 1.5rem !important; }
     header.masthead .header-content .header-content-inner img {
       width: 250px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
+    header.masthead h1 {
+      font-size: 3rem; }
+    header.masthead h2 {
+      font-size: 1.5rem; }
     header.masthead .header-content .header-content-inner img {
       width: 350px; } }
   @media (min-width: 992px) {
+    header.masthead h1 {
+      font-size: 3rem; }
+    header.masthead h2 {
+      font-size: 1.5rem; }
     header.masthead .header-content .header-content-inner img {
       width: 400px; } }
 
-.newscontainer {
+#novedades .newscontainer {
+  margin: 1em 0px 1em 0px;
   background-position: center;
   background-size: cover;
   background-color: #eee;
@@ -282,14 +309,11 @@ header.masthead {
   -webkit-box-shadow: 1px 1px 7px 0px #aeaeae;
   box-shadow: 1px 1px 7px 0px #aeaeae; }
 
-.newsa {
+#novedades .newsa {
   background-image: url(../img/newsa.jpg); }
 
-.newsb {
+#novedades .newsb {
   background-image: url(../img/newsb.jpg); }
-
-#novedades .newscontainer {
-  margin: 1em 0px 1em 0px; }
 
 #clases .module {
   overflow: hidden;
@@ -314,20 +338,32 @@ header.masthead {
     -webkit-box-shadow: 1px 1px 1px #999;
     box-shadow: 1px 1px 1px #999; }
     #clases .module img.left {
-      float: left;
-      margin-right: 15px; }
+      float: left; }
+      @media (min-width: 351px) {
+        #clases .module img.left {
+          margin-right: 0.8em; } }
     #clases .module img.right {
-      float: right;
-      margin-left: 15px; }
-    @media (max-width: 389px) {
+      float: right; }
+      @media (min-width: 351px) {
+        #clases .module img.right {
+          margin-left: 0.8em; } }
+    @media (max-width: 350px) {
+      #clases .module img {
+        margin-bottom: 3em;
+        border-bottom: 2em; } }
+    @media (min-width: 351px) and (max-width: 390px) {
       #clases .module img {
         height: 165px !important;
         width: auto; } }
-    @media (min-width: 390px) and (max-width: 480px) {
+    @media (min-width: 391px) and (max-width: 480px) {
       #clases .module img {
         height: 165px !important;
         width: auto;
-        margin-bottom: 0.3em; } }
+        margin-bottom: 0.3em; }
+        #clases .module img.left {
+          margin-right: 3em !important; }
+        #clases .module img.right {
+          margin-left: 3em !important; } }
     @media (min-width: 481px) and (max-width: 768px) {
       #clases .module img {
         width: 116px !important;
@@ -339,8 +375,13 @@ header.masthead {
       display: flex;
       -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
-      justify-content: center !important;
-      margin-bottom: 0.5em; } }
+      justify-content: center !important; } }
+  @media (max-width: 317px) {
+    #clases .module .imgwrapper {
+      margin-bottom: 1em; } }
+  @media (min-width: 318px) and (max-width: 389px) {
+    #clases .module .imgwrapper {
+      margin-bottom: 1.5em; } }
   #clases .module h3 {
     font-weight: bold;
     margin-top: 0px; }

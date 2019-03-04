@@ -15,14 +15,10 @@ header.masthead
     text-align: center
     .header-content-inner 
       h1 
-        font-size: 3rem!important
         font-weight: 700
         margin-top: 0
         margin-bottom: 0
-        //text-transform: uppercase
-      h2
-        font-size: 1.5rem
-      
+        //text-transform: uppercase   
       hr 
         margin: 30px auto
       
@@ -61,27 +57,41 @@ header.masthead
           margin-left: auto
         
       
-  @media (max-width: 480px)
+  @media (max-width: 360px)
+    h1
+     font-size: 1.5rem
+    h2
+     font-size: 1rem
+  @media (min-width: 361px) and (max-width: 480px)
+    h1
+     font-size: 1.7rem
+    h2
+     font-size: 1.2rem
     .header-content .header-content-inner img
       width: 170px
-  @media (min-width: 481px) and (max-width: 767px)
+  @media (min-width: 361px) and (max-width: 690px)
+    h1
+     font-size: 1.7rem
+    h2
+     font-size: 1.2rem
+  @media (min-width: 691px) and (max-width: 767px)
+    h1
+     font-size: 3rem
+    h2
+     font-size: 1.5rem!important
     .header-content .header-content-inner img
       width: 250px!important
   @media (min-width: 768px) and (max-width: 991px)
+    h1
+     font-size: 3rem
+    h2
+     font-size: 1.5rem
     .header-content .header-content-inner img
       width: 350px
   @media (min-width: 992px)
+    h1
+     font-size: 3rem
+    h2
+     font-size: 1.5rem
     .header-content .header-content-inner img
       width: 400px
-
-.newscontainer
-  background-position: center
-  background-size: cover
-  background-color: #eee
-  padding: 1em
-  border-radius: 0.5em
-  box-shadow: 1px 1px 7px 0px #aeaeae
-.newsa
-  background-image: url(../img/newsa.jpg)
-.newsb
-  background-image: url(../img/newsb.jpg)
