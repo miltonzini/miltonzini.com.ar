@@ -1,0 +1,148 @@
+// Global styling for this template
+body,
+html 
+  width: 100%
+  height: 100%
+  @media (max-width: 480px)
+    font-size: 14px
+  @media (min-width: 481px) and (max-width: 767px)
+    font-size: 14px
+  @media (min-width: 768px) and (max-width: 991px)
+    font-size: 15px
+  @media (min-width: 992px)
+    font-size: 16px
+
+
+body 
+  @include serif-font
+
+
+hr 
+  max-width: 50px
+  border-width: 3px
+  border-color: $theme-primary
+
+
+hr.light 
+  border-color: white
+
+
+a 
+  color: $theme-primary
+  @include transition-all
+  &:focus,
+  &:hover 
+    color: darken($theme-primary, .1)
+a.softlink
+  font-weight: bold
+  color: inherit
+  
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+  @include sans-serif-font
+
+
+p 
+  font-size: 1rem
+  line-height: 1.5
+  margin-bottom: 20px
+
+
+.bg-primary 
+  background-color: $theme-primary !important
+
+
+.bg-dark 
+  color: white
+  background-color: $gray-darker !important
+
+
+.text-faded 
+  color: fade-out(white, .3)
+
+
+section 
+  padding: 100px 0
+
+section.bg-primary
+  a
+    color: white!important
+
+
+.section-heading 
+  margin-top: 0
+
+
+::-moz-selection 
+  color: white
+  background: $gray-darker
+  text-shadow: none
+
+
+::selection 
+  color: white
+  background: $gray-darker
+  text-shadow: none
+
+
+img::selection 
+  color: white
+  background: transparent
+
+
+img::-moz-selection 
+  color: white
+  background: transparent
+
+
+body 
+  -webkit-tap-highlight-color: $gray-darker
+
+
+/* temp, organizar luego en include*/
+
+#contact
+  .social
+    margin-top: 1em
+  .row
+    i.fa
+      margin-bottom: 0.15em
+
+/* Headings */
+@media (max-width: 480px)
+  .row h2,
+  .container h2
+    font-size: 1.5rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+@media (min-width: 481px) and (max-width: 767px)
+  .row h2,
+  .container h2
+    font-size: 1.5rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+@media (min-width: 768px) and (max-width: 991px)
+  .row h2,
+  .container h2
+    font-size: 1.7rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+@media (min-width: 992px)
+  .row h2,
+  .container h2
+    font-size: 2rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+
+
+
