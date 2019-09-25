@@ -1,0 +1,6 @@
+
+18/01/15 - 1 hora y 5 mins (logo, algunas ideas, reacomodar secciones)
+18/01/17 - 1 hora y 30 mins (Textos, analizando código, thumbnails, logo breakdowns)
+18/01/25 - 2h30 - poniendo urls, cambiando márgenes, estudiando pop-ups, quitando y ocultando botones, modificando textos e íconos, viendo soundcloud y convirtiendo videos a audio para subir. Creando Cuenta de SoundCloud y Vimeo
+18/01/30 - 40mins (corrigiendo Gap, header a 100bvh, media queries para h2, h3, etc)
+18/01/31 - 15 Subiendo esos cambios a Github

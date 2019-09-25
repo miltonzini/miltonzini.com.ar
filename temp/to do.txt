@@ -1,0 +1,6 @@
+-Centrar el logo
+-achicar un poco el height del header (95vh?)
+
+-Meter links a videos en la home y sacar algunas thumbnails
+
+etc..
