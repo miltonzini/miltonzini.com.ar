@@ -304,16 +304,16 @@ header.masthead {
   background-position: center;
   background-size: cover;
   background-color: #eee;
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 0.5em;
   -webkit-box-shadow: 1px 1px 7px 0px #aeaeae;
   box-shadow: 1px 1px 7px 0px #aeaeae; }
 
-#videos .newsa {
-  background-image: url(../img/newsa.jpg); }
+#videos .videoa {
+  background-color: #c62828; }
 
-#videos .newsb {
-  background-image: url(../img/newsb.jpg); }
+#videos .videob {
+  background-color: #c62828; }
 
 #novedades .newscontainer {
   margin: 1em 0px 1em 0px;
