@@ -69,6 +69,25 @@ p {
 section {
   padding: 100px 0; }
 
+body.sub #contact {
+  padding: 10px 0; }
+
+section.bg-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5c04a42), to(#FFF)) !important;
+    background-image-background-image: -webkit-linear-gradient(top, #f5c04a42 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(top, #f5c04a42 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #f5c04a42 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #f5c04a42 0, #FFF 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0) !important; }
+
+section.bg-gradient-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#FFF)) !important;
+    background-image-background-image: -webkit-linear-gradient(top, #eee 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(top, #eee 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #eee 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #eee 0, #FFF 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee ', endColorstr='#FFF', GradientType=0) !important; }
+
 section.bg-primary a {
   color: white !important; }
 
@@ -315,6 +334,21 @@ header.masthead {
 #videos .videob {
   background-color: rgba(221, 221, 221, 0.67); }
 
+#videos .description {
+  color: #333;
+  text-align: right;
+  font-size: 14px;
+  padding-top: 0.5em;
+  padding-bottom: 0.3em; }
+  #videos .description h2 {
+    font-weight: bold;
+    font-family: inherit;
+    margin: 0px;
+    font-size: 0.8em; }
+  #videos .description p {
+    font-size: 0.8em;
+    margin: 0px; }
+
 #novedades .newscontainer {
   margin: 1em 0px 1em 0px;
   background-position: center;
@@ -417,6 +451,18 @@ header.masthead {
   @media (min-width: 481px) and (max-width: 768px) {
     #clases .module p {
       font-size: 0.85em; } }
+
+#clasesdeguitarra #main {
+  padding-bottom: 50px; }
+
+#clasesdeguitarra #faq {
+  padding: 50px 0px;
+  text-align: center; }
+  #clasesdeguitarra #faq h4, #clasesdeguitarra #faq p {
+    font-size: 0.9em;
+    text-align: left; }
+  #clasesdeguitarra #faq h4 {
+    font-weight: bold; }
 
 .portfolio-box {
   position: relative;
