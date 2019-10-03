@@ -88,6 +88,18 @@ section.bg-gradient-gray {
     background-image-background-image: linear-gradient(to bottom, #eee 0, #FFF 100%) !important;
       background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee ', endColorstr='#FFF', GradientType=0) !important; }
 
+section.bg-gradient-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af2323), to(#d04040)) !important;
+    background-image-background-image: -webkit-linear-gradient(top, #af2323 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(top, #af2323 0, #d04040 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #af2323 0, #d04040 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #af2323 0, #d04040 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#af2323 ', endColorstr='#d04040', GradientType=0) !important; }
+  section.bg-gradient-red a {
+    color: white !important; }
+  section.bg-gradient-red strong {
+    color: white; }
+
 section.bg-primary a {
   color: white !important; }
 
@@ -453,7 +465,8 @@ header.masthead {
       font-size: 0.85em; } }
 
 #clasesdeguitarra #main {
-  padding-bottom: 50px; }
+  padding-top: 80px;
+  padding-bottom: 10px; }
 
 #clasesdeguitarra #faq {
   padding: 50px 0px;
