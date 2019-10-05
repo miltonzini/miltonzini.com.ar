@@ -69,6 +69,19 @@ p {
 section {
   padding: 50px 0; }
 
+body.sub #main {
+  padding-top: 80px;
+  padding-bottom: 10px; }
+
+body.sub #faq {
+  padding: 50px 0px;
+  text-align: center; }
+  body.sub #faq h4, body.sub #faq p {
+    font-size: 0.9em;
+    text-align: left; }
+  body.sub #faq h4 {
+    font-weight: bold; }
+
 body.sub #contact {
   padding: 10px 0; }
 
@@ -463,19 +476,6 @@ header.masthead {
   @media (min-width: 481px) and (max-width: 768px) {
     #clases .module p {
       font-size: 0.85em; } }
-
-#clasesdeguitarra #main {
-  padding-top: 80px;
-  padding-bottom: 10px; }
-
-#clasesdeguitarra #faq {
-  padding: 50px 0px;
-  text-align: center; }
-  #clasesdeguitarra #faq h4, #clasesdeguitarra #faq p {
-    font-size: 0.9em;
-    text-align: left; }
-  #clasesdeguitarra #faq h4 {
-    font-weight: bold; }
 
 .portfolio-box {
   position: relative;
