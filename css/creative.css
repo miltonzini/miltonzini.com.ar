@@ -343,6 +343,22 @@ header.masthead {
     header.masthead .header-content .header-content-inner img {
       width: 400px; } }
 
+@media (max-width: 767px) {
+  header.masthead {
+    min-height: 92vh; }
+    header.masthead .header-content {
+      margin-top: 50px;
+      min-height: 80vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
 #videos .videoscontainer {
   margin: 1em 0px 1em 0px;
   background-position: center;
