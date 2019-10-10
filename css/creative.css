@@ -635,3 +635,19 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+body.error404 #main {
+  padding-top: 20vh;
+  padding-bottom: 13vh; }
+
+body.error404 #links {
+  padding: 50px 0px;
+  text-align: center; }
+  body.error404 #links h4, body.error404 #links p {
+    font-size: 0.9em;
+    text-align: left; }
+  body.error404 #links h4 {
+    font-weight: bold; }
+
+body.error404 #contact {
+  padding: 10px 0; }
