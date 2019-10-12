@@ -1,9 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url><loc>http://www.miltonzini.com.ar/</loc></url>
-   <url><loc>http://www.miltonzini.com.ar/clases/guitarra.html/</loc></url>
-   <url><loc>http://www.miltonzini.com.ar/clases/audioperceptiva.html/</loc></url>
-   <url><loc>http://www.miltonzini.com.ar/clases/finale.html/</loc></url>
-   <url><loc>http://www.miltonzini.com.ar/clases/composicion.html/</loc></url>
-   <url><loc>http://www.miltonzini.com.ar/clases/descargas.html/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>http://miltonzini.com.ar/</loc>
+<lastmod>2019-10-12T03:53:02+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>http://miltonzini.com.ar/clases/guitarra.html</loc>
+<lastmod>2019-10-12T03:53:02+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>http://miltonzini.com.ar/index.html</loc>
+<lastmod>2019-10-12T03:53:02+00:00</lastmod>
+<priority>0.64</priority>
+<loc>http://miltonzini.com.ar/clases/audioperceptiva.html</loc>
+<priority>0.20</priority>
+<loc>http://miltonzini.com.ar/clases/finale.html</loc>
+<priority>0.20</priority>
+<loc>http://miltonzini.com.ar/clases/composicion.html</loc>
+<priority>0.20</priority>
+</url>
 </urlset>
