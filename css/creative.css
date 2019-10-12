@@ -760,9 +760,9 @@ body.error404 #contact {
       width: 400px; } }
 
 @media (max-width: 767px) {
-  #clasesaudioperceptiva header.masthead {
+  #clasesaudioperceptiva header.main {
     min-height: 92vh; }
-    #clasesaudioperceptiva header.masthead .header-content {
+    #clasesaudioperceptiva header.main .header-content {
       margin-top: 50px;
       min-height: 80vh;
       display: -webkit-box;
