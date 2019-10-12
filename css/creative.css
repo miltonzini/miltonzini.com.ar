@@ -774,3 +774,327 @@ body.error404 #contact {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; } }
+
+#clasesguitarra header.main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: green !important;
+  background-color: #040404;
+  background-image: url("../img/clases-audioperceptiva-lenguaje-musical.jpg");
+  background-position: left bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #clasesguitarra header.main .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center; }
+    #clasesguitarra header.main .header-content .header-content-inner h1 {
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 0; }
+    #clasesguitarra header.main .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    #clasesguitarra header.main .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      color: rgba(255, 255, 255, 0.7); }
+    #clasesguitarra header.main .header-content .header-content-inner .bg-text {
+      background-color: rgba(0, 0, 0, 0.57);
+      padding: 0 5px 0 5px; }
+  @media (min-width: 768px) {
+    #clasesguitarra header.main {
+      height: 100%;
+      min-height: 600px; }
+      #clasesguitarra header.main .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        #clasesguitarra header.main .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          #clasesguitarra header.main .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          #clasesguitarra header.main .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+  @media (max-width: 360px) {
+    #clasesguitarra header.main h1 {
+      font-size: 1.5rem; }
+    #clasesguitarra header.main h2 {
+      font-size: 1rem; } }
+  @media (min-width: 361px) and (max-width: 480px) {
+    #clasesguitarra header.main h1 {
+      font-size: 1.7rem; }
+    #clasesguitarra header.main h2 {
+      font-size: 1.2rem; }
+    #clasesguitarra header.main .header-content .header-content-inner img {
+      width: 170px; } }
+  @media (min-width: 361px) and (max-width: 690px) {
+    #clasesguitarra header.main h1 {
+      font-size: 1.7rem; }
+    #clasesguitarra header.main h2 {
+      font-size: 1.2rem; } }
+  @media (min-width: 691px) and (max-width: 767px) {
+    #clasesguitarra header.main h1 {
+      font-size: 3rem; }
+    #clasesguitarra header.main h2 {
+      font-size: 1.5rem !important; }
+    #clasesguitarra header.main .header-content .header-content-inner img {
+      width: 250px !important; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #clasesguitarra header.main h1 {
+      font-size: 3rem; }
+    #clasesguitarra header.main h2 {
+      font-size: 1.5rem; }
+    #clasesguitarra header.main .header-content .header-content-inner img {
+      width: 350px; } }
+  @media (min-width: 992px) {
+    #clasesguitarra header.main h1 {
+      font-size: 3rem; }
+    #clasesguitarra header.main h2 {
+      font-size: 1.5rem; }
+    #clasesguitarra header.main .header-content .header-content-inner img {
+      width: 400px; } }
+
+@media (max-width: 767px) {
+  #clasesguitarra header.main {
+    min-height: 92vh; }
+    #clasesguitarra header.main .header-content {
+      margin-top: 50px;
+      min-height: 80vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+#clasesfinale header.main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: green !important;
+  background-color: #040404;
+  background-image: url("../img/clases-audioperceptiva-lenguaje-musical.jpg");
+  background-position: left bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #clasesfinale header.main .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center; }
+    #clasesfinale header.main .header-content .header-content-inner h1 {
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 0; }
+    #clasesfinale header.main .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    #clasesfinale header.main .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      color: rgba(255, 255, 255, 0.7); }
+    #clasesfinale header.main .header-content .header-content-inner .bg-text {
+      background-color: rgba(0, 0, 0, 0.57);
+      padding: 0 5px 0 5px; }
+  @media (min-width: 768px) {
+    #clasesfinale header.main {
+      height: 100%;
+      min-height: 600px; }
+      #clasesfinale header.main .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        #clasesfinale header.main .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          #clasesfinale header.main .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          #clasesfinale header.main .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+  @media (max-width: 360px) {
+    #clasesfinale header.main h1 {
+      font-size: 1.5rem; }
+    #clasesfinale header.main h2 {
+      font-size: 1rem; } }
+  @media (min-width: 361px) and (max-width: 480px) {
+    #clasesfinale header.main h1 {
+      font-size: 1.7rem; }
+    #clasesfinale header.main h2 {
+      font-size: 1.2rem; }
+    #clasesfinale header.main .header-content .header-content-inner img {
+      width: 170px; } }
+  @media (min-width: 361px) and (max-width: 690px) {
+    #clasesfinale header.main h1 {
+      font-size: 1.7rem; }
+    #clasesfinale header.main h2 {
+      font-size: 1.2rem; } }
+  @media (min-width: 691px) and (max-width: 767px) {
+    #clasesfinale header.main h1 {
+      font-size: 3rem; }
+    #clasesfinale header.main h2 {
+      font-size: 1.5rem !important; }
+    #clasesfinale header.main .header-content .header-content-inner img {
+      width: 250px !important; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #clasesfinale header.main h1 {
+      font-size: 3rem; }
+    #clasesfinale header.main h2 {
+      font-size: 1.5rem; }
+    #clasesfinale header.main .header-content .header-content-inner img {
+      width: 350px; } }
+  @media (min-width: 992px) {
+    #clasesfinale header.main h1 {
+      font-size: 3rem; }
+    #clasesfinale header.main h2 {
+      font-size: 1.5rem; }
+    #clasesfinale header.main .header-content .header-content-inner img {
+      width: 400px; } }
+
+@media (max-width: 767px) {
+  #clasesfinale header.main {
+    min-height: 92vh; }
+    #clasesfinale header.main .header-content {
+      margin-top: 50px;
+      min-height: 80vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+#clasescomposicion header.main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: green !important;
+  background-color: #040404;
+  background-image: url("../img/clases-audioperceptiva-lenguaje-musical.jpg");
+  background-position: left bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #clasescomposicion header.main .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center; }
+    #clasescomposicion header.main .header-content .header-content-inner h1 {
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 0; }
+    #clasescomposicion header.main .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    #clasescomposicion header.main .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      color: rgba(255, 255, 255, 0.7); }
+    #clasescomposicion header.main .header-content .header-content-inner .bg-text {
+      background-color: rgba(0, 0, 0, 0.57);
+      padding: 0 5px 0 5px; }
+  @media (min-width: 768px) {
+    #clasescomposicion header.main {
+      height: 100%;
+      min-height: 600px; }
+      #clasescomposicion header.main .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        #clasescomposicion header.main .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          #clasescomposicion header.main .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          #clasescomposicion header.main .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+  @media (max-width: 360px) {
+    #clasescomposicion header.main h1 {
+      font-size: 1.5rem; }
+    #clasescomposicion header.main h2 {
+      font-size: 1rem; } }
+  @media (min-width: 361px) and (max-width: 480px) {
+    #clasescomposicion header.main h1 {
+      font-size: 1.7rem; }
+    #clasescomposicion header.main h2 {
+      font-size: 1.2rem; }
+    #clasescomposicion header.main .header-content .header-content-inner img {
+      width: 170px; } }
+  @media (min-width: 361px) and (max-width: 690px) {
+    #clasescomposicion header.main h1 {
+      font-size: 1.7rem; }
+    #clasescomposicion header.main h2 {
+      font-size: 1.2rem; } }
+  @media (min-width: 691px) and (max-width: 767px) {
+    #clasescomposicion header.main h1 {
+      font-size: 3rem; }
+    #clasescomposicion header.main h2 {
+      font-size: 1.5rem !important; }
+    #clasescomposicion header.main .header-content .header-content-inner img {
+      width: 250px !important; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #clasescomposicion header.main h1 {
+      font-size: 3rem; }
+    #clasescomposicion header.main h2 {
+      font-size: 1.5rem; }
+    #clasescomposicion header.main .header-content .header-content-inner img {
+      width: 350px; } }
+  @media (min-width: 992px) {
+    #clasescomposicion header.main h1 {
+      font-size: 3rem; }
+    #clasescomposicion header.main h2 {
+      font-size: 1.5rem; }
+    #clasescomposicion header.main .header-content .header-content-inner img {
+      width: 400px; } }
+
+@media (max-width: 767px) {
+  #clasescomposicion header.main {
+    min-height: 92vh; }
+    #clasescomposicion header.main .header-content {
+      margin-top: 50px;
+      min-height: 80vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
