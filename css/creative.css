@@ -257,6 +257,7 @@ header.masthead {
   width: 100%;
   text-align: center;
   color: white;
+  background-color: #040404;
   background-image: url("../img/header.jpg");
   background-position: left bottom;
   -webkit-background-size: cover;
