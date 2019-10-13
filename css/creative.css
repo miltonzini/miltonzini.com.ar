@@ -154,6 +154,9 @@ body {
 #contact .row i.fa {
   margin-bottom: 0.15em; }
 
+#contact .col-sm-3 {
+  width: 93px; }
+
 /* Headings */
 @media (max-width: 480px) {
   .row h2,
@@ -1206,3 +1209,18 @@ body.error404 #contact {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; } }
+
+section.social div.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+section.social .socialwrapper {
+  min-width: 15vh;
+  text-align: center; }
