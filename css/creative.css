@@ -511,6 +511,35 @@ header.masthead {
     #clases .module p {
       font-size: 0.85em; } }
 
+body.clases .section-heading {
+  margin-top: 1.2em; }
+
+body.clases .module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 16em;
+  max-height: 6em;
+  border-color: rgba(243, 225, 225, 0.65) !important;
+  overflow: hidden;
+  border: 1px solid #f3e1e1;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin: 0.5em auto 0.5em auto;
+  text-align: left; }
+  body.clases .module h3 {
+    vertical-align: middle; }
+
+body.clases img {
+  float: left;
+  max-height: 6em;
+  width: auto;
+  margin-right: 1.5em; }
+
 .portfolio-box {
   position: relative;
   display: block;
