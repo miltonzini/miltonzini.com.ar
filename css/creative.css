@@ -157,6 +157,12 @@ body {
 #contact .col-sm-3 {
   width: 93px; }
 
+div.clasescta p {
+  margin-bottom: 0.5em !important; }
+
+div.clasescta h2 {
+  font-size: 1.5em !important; }
+
 /* Headings */
 @media (max-width: 480px) {
   .row h2,
