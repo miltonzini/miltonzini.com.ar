@@ -1257,14 +1257,14 @@ section.social div.social {
   align-items: center; }
 
 section.social .socialwrapper {
-  min-width: 15vh;
+  min-width: 6em;
   text-align: center; }
   @media (max-width: 391px) {
     section.social .socialwrapper {
-      min-width: 10vh; }
+      min-width: 4em; }
       section.social .socialwrapper p {
         display: none; } }
   @media (max-width: 266px) {
     section.social .socialwrapper {
-      min-width: 8vh;
+      min-width: 4em;
       font-size: 0.8em; } }
