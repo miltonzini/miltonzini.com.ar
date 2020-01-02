@@ -67,7 +67,8 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 50px 0; }
+  padding: 50px 0;
+  border-bottom: 1px #cd3e3e38 solid; }
 
 body.sub #main {
   padding-top: 80px;
@@ -402,20 +403,22 @@ header.masthead {
       align-items: center; } }
 
 #videos .videoscontainer {
-  margin: 1em 0px 1em 0px;
-  background-position: center;
-  background-size: cover;
-  background-color: #eee;
-  padding: 0.4em;
-  border-radius: 0.5em;
+  margin: 5px 1em;
+  padding: 0.25em;
   -webkit-box-shadow: 1px 1px 7px 0px #aeaeae;
-  box-shadow: 1px 1px 7px 0px #aeaeae; }
-
-#videos .videoa {
-  background-color: rgba(221, 221, 221, 0.67); }
-
-#videos .videob {
-  background-color: rgba(221, 221, 221, 0.67); }
+  box-shadow: 1px 1px 7px 0px #aeaeae;
+  border: 1px solid #f3e1e1;
+    border-border-radius: 3px;
+    border--moz-border-radius: 3px;
+    border--webkit-border-radius: 3px;
+    border-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(200, 200, 200, 0.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ededed6b), to(#FFF)) !important;
+  background-image: -webkit-linear-gradient(bottom, #ededed6b 0, #FFF 100%) !important;
+  background-image: -o-linear-gradient(bottom, #ededed6b 0, #FFF 100%) !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ededed6b), to(#FFF)) !important;
+  background-image: linear-gradient(to top, #ededed6b 0, #FFF 100%) !important;
+  background-image: linear-gradient(to top, #ededed6b 0, #FFF 100%) !important;
+    background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed6b ', endColorstr='#FFF', GradientType=0) !important; }
 
 #videos .description {
   color: #333;
