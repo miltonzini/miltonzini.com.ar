@@ -1134,7 +1134,6 @@ body.error404 #contact {
   position: relative;
   width: 100%;
   text-align: center;
-  color: green !important;
   background-color: #040404;
   background-image: url("../img/clases-audioperceptiva-lenguaje-musical.jpg");
   background-position: left bottom;
@@ -1142,6 +1141,8 @@ body.error404 #contact {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #descargas header.main a:hover {
+    text-decoration: none; }
   #descargas header.main .header-content {
     position: relative;
     width: 100%;
@@ -1252,6 +1253,8 @@ section.social div.social {
 section.social .socialwrapper {
   min-width: 6em;
   text-align: center; }
+  section.social .socialwrapper a:hover {
+    text-decoration: none; }
   @media (max-width: 391px) {
     section.social .socialwrapper {
       min-width: 4em; }
