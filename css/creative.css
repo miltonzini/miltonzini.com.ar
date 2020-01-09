@@ -589,6 +589,94 @@ body.clases img {
   width: auto;
   margin-right: 1.5em; }
 
+.smallmodulewrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.smallmodule {
+  overflow: hidden;
+  width: 20em;
+  padding: 1px;
+  margin-top: 25px !important;
+  margin-bottom: 5px !important;
+  border: 1px solid #f3e1e1;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(200, 200, 200, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(200, 200, 200, 0.1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ededed6b), to(#FFF)) !important;
+  background-image: -webkit-linear-gradient(top, #ededed6b 0, #FFF 100%) !important;
+  background-image: -o-linear-gradient(top, #ededed6b 0, #FFF 100%) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ededed6b), to(#FFF)) !important;
+  background-image: linear-gradient(to bottom, #ededed6b 0, #FFF 100%) !important;
+  background-image: linear-gradient(to bottom, #ededed6b 0, #FFF 100%) !important;
+    background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed6b ', endColorstr='#FFF', GradientType=0) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .smallmodule h3 {
+    font-size: 1rem; }
+  .smallmodule a {
+    color: inherit !important; }
+  .smallmodule p {
+    margin-bottom: 0px; }
+  .smallmodule img {
+    background-color: #c9f966;
+    -webkit-box-shadow: 1px 1px 1px #999;
+    box-shadow: 1px 1px 1px #999; }
+    .smallmodule img.left {
+      float: left; }
+      @media (min-width: 351px) {
+        .smallmodule img.left {
+          margin-right: 0.8em; } }
+    .smallmodule img.right {
+      float: right; }
+      @media (min-width: 351px) {
+        .smallmodule img.right {
+          margin-left: 0.8em; } }
+    @media (max-width: 350px) {
+      .smallmodule img {
+        margin-bottom: 3em;
+        border-bottom: 2em; } }
+  @media (max-width: 389px) {
+    .smallmodule .imgwrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important; } }
+  .smallmodule h3 {
+    font-weight: bold;
+    margin-top: 0px; }
+    @media (max-width: 480px) {
+      .smallmodule h3 {
+        font-size: 1em; } }
+    @media (min-width: 481px) and (max-width: 768px) {
+      .smallmodule h3 {
+        font-size: 1em; } }
+  .smallmodule p.text-right {
+    margin: 0px;
+    color: #991429;
+    line-height: 1em; }
+  @media (max-width: 480px) {
+    .smallmodule p {
+      font-size: 0.80em; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .smallmodule p {
+      font-size: 0.85em; } }
+
 .call-to-action {
   padding: 50px 0; }
   .call-to-action h2 {
