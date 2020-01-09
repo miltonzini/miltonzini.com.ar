@@ -86,6 +86,9 @@ body.sub #faq, body.sub #descrip {
 body.sub #contact {
   padding: 10px 0; }
 
+body.sub header.main a {
+  color: white !important; }
+
 section.bg-gradient {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f5c04a42), to(#FFF)) !important;
     background-image-background-image: -webkit-linear-gradient(top, #f5c04a42 0, #FFF 100%) !important;
@@ -698,7 +701,7 @@ body.error404 #links {
 body.error404 #contact {
   padding: 10px 0; }
 
-#clasesaudioperceptiva header.main {
+#subclases header.main {
   position: relative;
   width: 100%;
   text-align: center;
@@ -710,90 +713,90 @@ body.error404 #contact {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #clasesaudioperceptiva header.main .header-content {
+  #subclases header.main .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner h1 {
+    #subclases header.main .header-content .header-content-inner h1 {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner hr {
+    #subclases header.main .header-content .header-content-inner hr {
       margin: 30px auto; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner p {
+    #subclases header.main .header-content .header-content-inner p {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.7); }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner .bg-text {
+    #subclases header.main .header-content .header-content-inner .bg-text {
       background-color: rgba(0, 0, 0, 0.57);
       padding: 0 5px 0 5px; }
   @media (min-width: 768px) {
-    #clasesaudioperceptiva header.main {
+    #subclases header.main {
       height: 100%;
       min-height: 600px; }
-      #clasesaudioperceptiva header.main .header-content {
+      #subclases header.main .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
-        #clasesaudioperceptiva header.main .header-content .header-content-inner {
+        #subclases header.main .header-content .header-content-inner {
           max-width: 1000px;
           margin-right: auto;
           margin-left: auto; }
-          #clasesaudioperceptiva header.main .header-content .header-content-inner h1 {
+          #subclases header.main .header-content .header-content-inner h1 {
             font-size: 50px; }
-          #clasesaudioperceptiva header.main .header-content .header-content-inner p {
+          #subclases header.main .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
   @media (max-width: 360px) {
-    #clasesaudioperceptiva header.main h1 {
+    #subclases header.main h1 {
       font-size: 1.5rem; }
-    #clasesaudioperceptiva header.main h2 {
+    #subclases header.main h2 {
       font-size: 1rem; } }
   @media (min-width: 361px) and (max-width: 480px) {
-    #clasesaudioperceptiva header.main h1 {
+    #subclases header.main h1 {
       font-size: 1.7rem; }
-    #clasesaudioperceptiva header.main h2 {
+    #subclases header.main h2 {
       font-size: 1.2rem; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner img {
+    #subclases header.main .header-content .header-content-inner img {
       width: 170px; } }
   @media (min-width: 361px) and (max-width: 690px) {
-    #clasesaudioperceptiva header.main h1 {
+    #subclases header.main h1 {
       font-size: 1.7rem; }
-    #clasesaudioperceptiva header.main h2 {
+    #subclases header.main h2 {
       font-size: 1.2rem; } }
   @media (min-width: 691px) and (max-width: 767px) {
-    #clasesaudioperceptiva header.main h1 {
+    #subclases header.main h1 {
       font-size: 2rem; }
-    #clasesaudioperceptiva header.main h2 {
+    #subclases header.main h2 {
       font-size: 1.5rem !important; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner img {
+    #subclases header.main .header-content .header-content-inner img {
       width: 250px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    #clasesaudioperceptiva header.main h1 {
+    #subclases header.main h1 {
       font-size: 2rem !important; }
-    #clasesaudioperceptiva header.main h2 {
+    #subclases header.main h2 {
       font-size: 1.5rem; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner img {
+    #subclases header.main .header-content .header-content-inner img {
       width: 350px; } }
   @media (min-width: 992px) {
-    #clasesaudioperceptiva header.main h1 {
+    #subclases header.main h1 {
       font-size: 2rem !important; }
-    #clasesaudioperceptiva header.main h2 {
+    #subclases header.main h2 {
       font-size: 1.5rem; }
-    #clasesaudioperceptiva header.main .header-content .header-content-inner img {
+    #subclases header.main .header-content .header-content-inner img {
       width: 400px; } }
 
 @media (max-width: 767px) {
-  #clasesaudioperceptiva header.main {
+  #subclases header.main {
     min-height: 92vh; }
-    #clasesaudioperceptiva header.main .header-content {
+    #subclases header.main .header-content {
       margin-top: 50px;
       min-height: 80vh;
       display: -webkit-box;
@@ -806,7 +809,7 @@ body.error404 #contact {
       -ms-flex-align: center;
       align-items: center; } }
 
-#clasesguitarra header.main {
+#subaudioperceptiva header.main {
   position: relative;
   width: 100%;
   text-align: center;
@@ -818,90 +821,90 @@ body.error404 #contact {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #clasesguitarra header.main .header-content {
+  #subaudioperceptiva header.main .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center; }
-    #clasesguitarra header.main .header-content .header-content-inner h1 {
+    #subaudioperceptiva header.main .header-content .header-content-inner h1 {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    #clasesguitarra header.main .header-content .header-content-inner hr {
+    #subaudioperceptiva header.main .header-content .header-content-inner hr {
       margin: 30px auto; }
-    #clasesguitarra header.main .header-content .header-content-inner p {
+    #subaudioperceptiva header.main .header-content .header-content-inner p {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.7); }
-    #clasesguitarra header.main .header-content .header-content-inner .bg-text {
+    #subaudioperceptiva header.main .header-content .header-content-inner .bg-text {
       background-color: rgba(0, 0, 0, 0.57);
       padding: 0 5px 0 5px; }
   @media (min-width: 768px) {
-    #clasesguitarra header.main {
+    #subaudioperceptiva header.main {
       height: 100%;
       min-height: 600px; }
-      #clasesguitarra header.main .header-content {
+      #subaudioperceptiva header.main .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
-        #clasesguitarra header.main .header-content .header-content-inner {
+        #subaudioperceptiva header.main .header-content .header-content-inner {
           max-width: 1000px;
           margin-right: auto;
           margin-left: auto; }
-          #clasesguitarra header.main .header-content .header-content-inner h1 {
+          #subaudioperceptiva header.main .header-content .header-content-inner h1 {
             font-size: 50px; }
-          #clasesguitarra header.main .header-content .header-content-inner p {
+          #subaudioperceptiva header.main .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
   @media (max-width: 360px) {
-    #clasesguitarra header.main h1 {
+    #subaudioperceptiva header.main h1 {
       font-size: 1.5rem; }
-    #clasesguitarra header.main h2 {
+    #subaudioperceptiva header.main h2 {
       font-size: 1rem; } }
   @media (min-width: 361px) and (max-width: 480px) {
-    #clasesguitarra header.main h1 {
+    #subaudioperceptiva header.main h1 {
       font-size: 1.7rem; }
-    #clasesguitarra header.main h2 {
+    #subaudioperceptiva header.main h2 {
       font-size: 1.2rem; }
-    #clasesguitarra header.main .header-content .header-content-inner img {
+    #subaudioperceptiva header.main .header-content .header-content-inner img {
       width: 170px; } }
   @media (min-width: 361px) and (max-width: 690px) {
-    #clasesguitarra header.main h1 {
+    #subaudioperceptiva header.main h1 {
       font-size: 1.7rem; }
-    #clasesguitarra header.main h2 {
+    #subaudioperceptiva header.main h2 {
       font-size: 1.2rem; } }
   @media (min-width: 691px) and (max-width: 767px) {
-    #clasesguitarra header.main h1 {
+    #subaudioperceptiva header.main h1 {
       font-size: 2rem; }
-    #clasesguitarra header.main h2 {
+    #subaudioperceptiva header.main h2 {
       font-size: 1.5rem !important; }
-    #clasesguitarra header.main .header-content .header-content-inner img {
+    #subaudioperceptiva header.main .header-content .header-content-inner img {
       width: 250px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    #clasesguitarra header.main h1 {
+    #subaudioperceptiva header.main h1 {
       font-size: 2rem !important; }
-    #clasesguitarra header.main h2 {
+    #subaudioperceptiva header.main h2 {
       font-size: 1.5rem; }
-    #clasesguitarra header.main .header-content .header-content-inner img {
+    #subaudioperceptiva header.main .header-content .header-content-inner img {
       width: 350px; } }
   @media (min-width: 992px) {
-    #clasesguitarra header.main h1 {
+    #subaudioperceptiva header.main h1 {
       font-size: 2rem !important; }
-    #clasesguitarra header.main h2 {
+    #subaudioperceptiva header.main h2 {
       font-size: 1.5rem; }
-    #clasesguitarra header.main .header-content .header-content-inner img {
+    #subaudioperceptiva header.main .header-content .header-content-inner img {
       width: 400px; } }
 
 @media (max-width: 767px) {
-  #clasesguitarra header.main {
+  #subaudioperceptiva header.main {
     min-height: 92vh; }
-    #clasesguitarra header.main .header-content {
+    #subaudioperceptiva header.main .header-content {
       margin-top: 50px;
       min-height: 80vh;
       display: -webkit-box;
@@ -914,7 +917,7 @@ body.error404 #contact {
       -ms-flex-align: center;
       align-items: center; } }
 
-#clasesfinale header.main {
+#subguitarra header.main {
   position: relative;
   width: 100%;
   text-align: center;
@@ -926,90 +929,90 @@ body.error404 #contact {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #clasesfinale header.main .header-content {
+  #subguitarra header.main .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center; }
-    #clasesfinale header.main .header-content .header-content-inner h1 {
+    #subguitarra header.main .header-content .header-content-inner h1 {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    #clasesfinale header.main .header-content .header-content-inner hr {
+    #subguitarra header.main .header-content .header-content-inner hr {
       margin: 30px auto; }
-    #clasesfinale header.main .header-content .header-content-inner p {
+    #subguitarra header.main .header-content .header-content-inner p {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.7); }
-    #clasesfinale header.main .header-content .header-content-inner .bg-text {
+    #subguitarra header.main .header-content .header-content-inner .bg-text {
       background-color: rgba(0, 0, 0, 0.57);
       padding: 0 5px 0 5px; }
   @media (min-width: 768px) {
-    #clasesfinale header.main {
+    #subguitarra header.main {
       height: 100%;
       min-height: 600px; }
-      #clasesfinale header.main .header-content {
+      #subguitarra header.main .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
-        #clasesfinale header.main .header-content .header-content-inner {
+        #subguitarra header.main .header-content .header-content-inner {
           max-width: 1000px;
           margin-right: auto;
           margin-left: auto; }
-          #clasesfinale header.main .header-content .header-content-inner h1 {
+          #subguitarra header.main .header-content .header-content-inner h1 {
             font-size: 50px; }
-          #clasesfinale header.main .header-content .header-content-inner p {
+          #subguitarra header.main .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
   @media (max-width: 360px) {
-    #clasesfinale header.main h1 {
+    #subguitarra header.main h1 {
       font-size: 1.5rem; }
-    #clasesfinale header.main h2 {
+    #subguitarra header.main h2 {
       font-size: 1rem; } }
   @media (min-width: 361px) and (max-width: 480px) {
-    #clasesfinale header.main h1 {
+    #subguitarra header.main h1 {
       font-size: 1.7rem; }
-    #clasesfinale header.main h2 {
+    #subguitarra header.main h2 {
       font-size: 1.2rem; }
-    #clasesfinale header.main .header-content .header-content-inner img {
+    #subguitarra header.main .header-content .header-content-inner img {
       width: 170px; } }
   @media (min-width: 361px) and (max-width: 690px) {
-    #clasesfinale header.main h1 {
+    #subguitarra header.main h1 {
       font-size: 1.7rem; }
-    #clasesfinale header.main h2 {
+    #subguitarra header.main h2 {
       font-size: 1.2rem; } }
   @media (min-width: 691px) and (max-width: 767px) {
-    #clasesfinale header.main h1 {
+    #subguitarra header.main h1 {
       font-size: 2rem; }
-    #clasesfinale header.main h2 {
+    #subguitarra header.main h2 {
       font-size: 1.5rem !important; }
-    #clasesfinale header.main .header-content .header-content-inner img {
+    #subguitarra header.main .header-content .header-content-inner img {
       width: 250px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    #clasesfinale header.main h1 {
+    #subguitarra header.main h1 {
       font-size: 2rem !important; }
-    #clasesfinale header.main h2 {
+    #subguitarra header.main h2 {
       font-size: 1.5rem; }
-    #clasesfinale header.main .header-content .header-content-inner img {
+    #subguitarra header.main .header-content .header-content-inner img {
       width: 350px; } }
   @media (min-width: 992px) {
-    #clasesfinale header.main h1 {
+    #subguitarra header.main h1 {
       font-size: 2rem !important; }
-    #clasesfinale header.main h2 {
+    #subguitarra header.main h2 {
       font-size: 1.5rem; }
-    #clasesfinale header.main .header-content .header-content-inner img {
+    #subguitarra header.main .header-content .header-content-inner img {
       width: 400px; } }
 
 @media (max-width: 767px) {
-  #clasesfinale header.main {
+  #subguitarra header.main {
     min-height: 92vh; }
-    #clasesfinale header.main .header-content {
+    #subguitarra header.main .header-content {
       margin-top: 50px;
       min-height: 80vh;
       display: -webkit-box;
@@ -1022,7 +1025,7 @@ body.error404 #contact {
       -ms-flex-align: center;
       align-items: center; } }
 
-#clasescomposicion header.main {
+#subfinale header.main {
   position: relative;
   width: 100%;
   text-align: center;
@@ -1034,90 +1037,90 @@ body.error404 #contact {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #clasescomposicion header.main .header-content {
+  #subfinale header.main .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center; }
-    #clasescomposicion header.main .header-content .header-content-inner h1 {
+    #subfinale header.main .header-content .header-content-inner h1 {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    #clasescomposicion header.main .header-content .header-content-inner hr {
+    #subfinale header.main .header-content .header-content-inner hr {
       margin: 30px auto; }
-    #clasescomposicion header.main .header-content .header-content-inner p {
+    #subfinale header.main .header-content .header-content-inner p {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.7); }
-    #clasescomposicion header.main .header-content .header-content-inner .bg-text {
+    #subfinale header.main .header-content .header-content-inner .bg-text {
       background-color: rgba(0, 0, 0, 0.57);
       padding: 0 5px 0 5px; }
   @media (min-width: 768px) {
-    #clasescomposicion header.main {
+    #subfinale header.main {
       height: 100%;
       min-height: 600px; }
-      #clasescomposicion header.main .header-content {
+      #subfinale header.main .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
-        #clasescomposicion header.main .header-content .header-content-inner {
+        #subfinale header.main .header-content .header-content-inner {
           max-width: 1000px;
           margin-right: auto;
           margin-left: auto; }
-          #clasescomposicion header.main .header-content .header-content-inner h1 {
+          #subfinale header.main .header-content .header-content-inner h1 {
             font-size: 50px; }
-          #clasescomposicion header.main .header-content .header-content-inner p {
+          #subfinale header.main .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
   @media (max-width: 360px) {
-    #clasescomposicion header.main h1 {
+    #subfinale header.main h1 {
       font-size: 1.5rem; }
-    #clasescomposicion header.main h2 {
+    #subfinale header.main h2 {
       font-size: 1rem; } }
   @media (min-width: 361px) and (max-width: 480px) {
-    #clasescomposicion header.main h1 {
+    #subfinale header.main h1 {
       font-size: 1.7rem; }
-    #clasescomposicion header.main h2 {
+    #subfinale header.main h2 {
       font-size: 1.2rem; }
-    #clasescomposicion header.main .header-content .header-content-inner img {
+    #subfinale header.main .header-content .header-content-inner img {
       width: 170px; } }
   @media (min-width: 361px) and (max-width: 690px) {
-    #clasescomposicion header.main h1 {
+    #subfinale header.main h1 {
       font-size: 1.7rem; }
-    #clasescomposicion header.main h2 {
+    #subfinale header.main h2 {
       font-size: 1.2rem; } }
   @media (min-width: 691px) and (max-width: 767px) {
-    #clasescomposicion header.main h1 {
+    #subfinale header.main h1 {
       font-size: 2rem; }
-    #clasescomposicion header.main h2 {
+    #subfinale header.main h2 {
       font-size: 1.5rem !important; }
-    #clasescomposicion header.main .header-content .header-content-inner img {
+    #subfinale header.main .header-content .header-content-inner img {
       width: 250px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    #clasescomposicion header.main h1 {
+    #subfinale header.main h1 {
       font-size: 2rem !important; }
-    #clasescomposicion header.main h2 {
+    #subfinale header.main h2 {
       font-size: 1.5rem; }
-    #clasescomposicion header.main .header-content .header-content-inner img {
+    #subfinale header.main .header-content .header-content-inner img {
       width: 350px; } }
   @media (min-width: 992px) {
-    #clasescomposicion header.main h1 {
+    #subfinale header.main h1 {
       font-size: 2rem !important; }
-    #clasescomposicion header.main h2 {
+    #subfinale header.main h2 {
       font-size: 1.5rem; }
-    #clasescomposicion header.main .header-content .header-content-inner img {
+    #subfinale header.main .header-content .header-content-inner img {
       width: 400px; } }
 
 @media (max-width: 767px) {
-  #clasescomposicion header.main {
+  #subfinale header.main {
     min-height: 92vh; }
-    #clasescomposicion header.main .header-content {
+    #subfinale header.main .header-content {
       margin-top: 50px;
       min-height: 80vh;
       display: -webkit-box;
@@ -1130,7 +1133,115 @@ body.error404 #contact {
       -ms-flex-align: center;
       align-items: center; } }
 
-#descargas header.main {
+#subcomposicion header.main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: green !important;
+  background-color: #040404;
+  background-image: url("../img/clases-audioperceptiva-lenguaje-musical.jpg");
+  background-position: left bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #subcomposicion header.main .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center; }
+    #subcomposicion header.main .header-content .header-content-inner h1 {
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 0; }
+    #subcomposicion header.main .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    #subcomposicion header.main .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      color: rgba(255, 255, 255, 0.7); }
+    #subcomposicion header.main .header-content .header-content-inner .bg-text {
+      background-color: rgba(0, 0, 0, 0.57);
+      padding: 0 5px 0 5px; }
+  @media (min-width: 768px) {
+    #subcomposicion header.main {
+      height: 100%;
+      min-height: 600px; }
+      #subcomposicion header.main .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        #subcomposicion header.main .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          #subcomposicion header.main .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          #subcomposicion header.main .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+  @media (max-width: 360px) {
+    #subcomposicion header.main h1 {
+      font-size: 1.5rem; }
+    #subcomposicion header.main h2 {
+      font-size: 1rem; } }
+  @media (min-width: 361px) and (max-width: 480px) {
+    #subcomposicion header.main h1 {
+      font-size: 1.7rem; }
+    #subcomposicion header.main h2 {
+      font-size: 1.2rem; }
+    #subcomposicion header.main .header-content .header-content-inner img {
+      width: 170px; } }
+  @media (min-width: 361px) and (max-width: 690px) {
+    #subcomposicion header.main h1 {
+      font-size: 1.7rem; }
+    #subcomposicion header.main h2 {
+      font-size: 1.2rem; } }
+  @media (min-width: 691px) and (max-width: 767px) {
+    #subcomposicion header.main h1 {
+      font-size: 2rem; }
+    #subcomposicion header.main h2 {
+      font-size: 1.5rem !important; }
+    #subcomposicion header.main .header-content .header-content-inner img {
+      width: 250px !important; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #subcomposicion header.main h1 {
+      font-size: 2rem !important; }
+    #subcomposicion header.main h2 {
+      font-size: 1.5rem; }
+    #subcomposicion header.main .header-content .header-content-inner img {
+      width: 350px; } }
+  @media (min-width: 992px) {
+    #subcomposicion header.main h1 {
+      font-size: 2rem !important; }
+    #subcomposicion header.main h2 {
+      font-size: 1.5rem; }
+    #subcomposicion header.main .header-content .header-content-inner img {
+      width: 400px; } }
+
+@media (max-width: 767px) {
+  #subcomposicion header.main {
+    min-height: 92vh; }
+    #subcomposicion header.main .header-content {
+      margin-top: 50px;
+      min-height: 80vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+#subdescargas header.main {
   position: relative;
   width: 100%;
   text-align: center;
@@ -1141,92 +1252,92 @@ body.error404 #contact {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #descargas header.main a:hover {
+  #subdescargas header.main a:hover {
     text-decoration: none; }
-  #descargas header.main .header-content {
+  #subdescargas header.main .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center; }
-    #descargas header.main .header-content .header-content-inner h1 {
+    #subdescargas header.main .header-content .header-content-inner h1 {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    #descargas header.main .header-content .header-content-inner hr {
+    #subdescargas header.main .header-content .header-content-inner hr {
       margin: 30px auto; }
-    #descargas header.main .header-content .header-content-inner p {
+    #subdescargas header.main .header-content .header-content-inner p {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
       color: rgba(255, 255, 255, 0.7); }
-    #descargas header.main .header-content .header-content-inner .bg-text {
+    #subdescargas header.main .header-content .header-content-inner .bg-text {
       background-color: rgba(0, 0, 0, 0.57);
       padding: 0 5px 0 5px; }
   @media (min-width: 768px) {
-    #descargas header.main {
+    #subdescargas header.main {
       height: 100%;
       min-height: 600px; }
-      #descargas header.main .header-content {
+      #subdescargas header.main .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
-        #descargas header.main .header-content .header-content-inner {
+        #subdescargas header.main .header-content .header-content-inner {
           max-width: 1000px;
           margin-right: auto;
           margin-left: auto; }
-          #descargas header.main .header-content .header-content-inner h1 {
+          #subdescargas header.main .header-content .header-content-inner h1 {
             font-size: 50px; }
-          #descargas header.main .header-content .header-content-inner p {
+          #subdescargas header.main .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
   @media (max-width: 360px) {
-    #descargas header.main h1 {
+    #subdescargas header.main h1 {
       font-size: 1.5rem; }
-    #descargas header.main h2 {
+    #subdescargas header.main h2 {
       font-size: 1rem; } }
   @media (min-width: 361px) and (max-width: 480px) {
-    #descargas header.main h1 {
+    #subdescargas header.main h1 {
       font-size: 1.7rem; }
-    #descargas header.main h2 {
+    #subdescargas header.main h2 {
       font-size: 1.2rem; }
-    #descargas header.main .header-content .header-content-inner img {
+    #subdescargas header.main .header-content .header-content-inner img {
       width: 170px; } }
   @media (min-width: 361px) and (max-width: 690px) {
-    #descargas header.main h1 {
+    #subdescargas header.main h1 {
       font-size: 1.7rem; }
-    #descargas header.main h2 {
+    #subdescargas header.main h2 {
       font-size: 1.2rem; } }
   @media (min-width: 691px) and (max-width: 767px) {
-    #descargas header.main h1 {
+    #subdescargas header.main h1 {
       font-size: 3rem; }
-    #descargas header.main h2 {
+    #subdescargas header.main h2 {
       font-size: 1.5rem !important; }
-    #descargas header.main .header-content .header-content-inner img {
+    #subdescargas header.main .header-content .header-content-inner img {
       width: 250px !important; } }
   @media (min-width: 768px) and (max-width: 991px) {
-    #descargas header.main h1 {
+    #subdescargas header.main h1 {
       font-size: 3rem; }
-    #descargas header.main h2 {
+    #subdescargas header.main h2 {
       font-size: 1.5rem; }
-    #descargas header.main .header-content .header-content-inner img {
+    #subdescargas header.main .header-content .header-content-inner img {
       width: 350px; } }
   @media (min-width: 992px) {
-    #descargas header.main h1 {
+    #subdescargas header.main h1 {
       font-size: 3rem; }
-    #descargas header.main h2 {
+    #subdescargas header.main h2 {
       font-size: 1.5rem; }
-    #descargas header.main .header-content .header-content-inner img {
+    #subdescargas header.main .header-content .header-content-inner img {
       width: 400px; } }
 
 @media (max-width: 767px) {
-  #descargas header.main {
+  #subdescargas header.main {
     min-height: 92vh; }
-    #descargas header.main .header-content {
+    #subdescargas header.main .header-content {
       margin-top: 50px;
       min-height: 80vh;
       display: -webkit-box;
