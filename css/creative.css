@@ -62,6 +62,8 @@ p {
 .bg-dark {
   color: white;
   background-color: #222222 !important; }
+  .bg-dark a {
+    color: white !important; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
@@ -150,7 +152,11 @@ section.bg-gradient-right {
       background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0) !important; }
 
 section.darkbg {
-  background-image: url(../img/darkbg.jpg); }
+  background-image: url(../img/darkbg.jpg);
+  background-size: cover; }
+
+section.bg-solid {
+  background-color: #f5c04a42; }
 
 section.bg-primary a {
   color: white !important; }
