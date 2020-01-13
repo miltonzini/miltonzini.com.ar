@@ -477,6 +477,9 @@ header.masthead {
 #novedades .newsb {
   background-image: url(../img/newsb.jpg); }
 
+body#page-top #clases {
+  padding: 120px 0px; }
+
 #clases .module {
   overflow: hidden;
   padding: 15px 15px 15px 15px;
@@ -1443,6 +1446,9 @@ body.error404 #contact {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; } }
+
+section#contact {
+  padding: 10px 0px; }
 
 section.social div.social {
   display: -webkit-box;
