@@ -388,7 +388,28 @@ header.masthead {
   background: #fad2d3;
   background: -webkit-linear-gradient(305deg, #fdf7f7 0%, #fff2d5 36%, #fef0e7 60%, #edf1f2 90%);
   background: -o-linear-gradient(305deg, #fdf7f7 0%, #fff2d5 36%, #fef0e7 60%, #edf1f2 90%);
-  background: linear-gradient(145deg, #fdf7f7 0%, #fff2d5 36%, #fef0e7 60%, #edf1f2 90%); }
+  background: linear-gradient(145deg, #fdf7f7 0%, #fff2d5 36%, #fef0e7 60%, #edf1f2 90%);
+  -webkit-animation: filter-animation 1s infinite;
+  animation: filter-animation 20s infinite; }
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg); }
+  50% {
+    -webkit-filter: hue-rotate(15deg); }
+  100% {
+    -webkit-filter: hue-rotate(0deg); } }
+
+@keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg); }
+  50% {
+    -webkit-filter: hue-rotate(15deg);
+    filter: hue-rotate(15deg); }
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg); } }
   header.masthead .header-content {
     position: relative;
     width: 100%;
