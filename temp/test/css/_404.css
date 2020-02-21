@@ -1,0 +1,15 @@
+#404 #main {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+#404 #faq {
+  padding: 50px 0px;
+  text-align: center; }
+  #404 #faq h4, #404 #faq p {
+    font-size: 0.9em;
+    text-align: left; }
+  #404 #faq h4 {
+    font-weight: bold; }
+
+#404 #contact {
+  padding: 10px 0; }

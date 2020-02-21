@@ -1,0 +1,310 @@
+// Global styling for this template
+body,
+html 
+  width: 100%
+  height: 100%
+  @media (max-width: 480px)
+    font-size: 15px
+  @media (min-width: 481px) and (max-width: 767px)
+    font-size: 15px
+  @media (min-width: 768px) and (max-width: 991px)
+    font-size: 16px
+  @media (min-width: 992px)
+    font-size: 17px
+
+
+body 
+  @include serif-font
+
+
+hr 
+  max-width: 50px
+  border-width: 3px
+  border-color: $theme-primary
+
+
+hr.light 
+  border-color: white
+
+
+a 
+  color: $theme-primary
+  @include transition-all
+  &:focus,
+  &:hover 
+    color: darken($theme-primary, .1)
+a.softlink
+  font-weight: bold
+  color: inherit
+  
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+  @include sans-serif-font
+
+
+p 
+  font-size: 1rem
+  line-height: 1.5
+  margin-bottom: 20px
+
+
+.bg-primary 
+  background-color: $theme-primary !important
+
+.bg-gray1 
+  color: white
+  background-color: $theme-gray1 !important
+  a
+   color: white!important
+
+.bg-white 
+  background-color: #fff !important
+.bg-theme-red
+  background-color: $theme-red
+.bg-theme-orange
+  background-color: $theme-orange
+.bg-theme-yellow
+  background-color: $theme-yellow
+.bg-theme-gray1
+  color: white
+  background-color: $theme-gray1 !important
+  a
+   color: white!important
+.bg-theme-gray2
+  color: $theme-gray1
+  background-color: $theme-gray2 !important
+.bg-theme-red-light
+  background-color: $theme-red-light
+.bg-theme-orange-light
+  background-color: $theme-orange-light
+.bg-theme-yellow-light
+  background-color: $theme-yellow-light
+.bg-theme-gray1-light
+  background-color: $theme-gray1-light
+.bg-theme-gray2-light
+  background-color: $theme-gray2-light
+
+
+.text-faded 
+  color: fade-out(white, .3)
+
+
+section 
+  //padding: 50px 0
+  padding: 120px 0
+  border-bottom: 1px $theme-gray2 solid
+
+body.sub
+  #main
+    padding-top: 80px
+    padding-bottom: 10px
+  #faq, #descrip
+    padding: 50px 0px
+    text-align: center
+    h4, p
+     font-size: 0.9em
+     text-align: left
+    h4
+     font-weight: bold
+  #contact
+    padding: 10px 0
+  header.main
+    a
+      color:white!important
+
+section.bg-gradient
+  background-image:-webkit-gradient(linear,left top,left bottom,from($theme-gray2),to($theme-orange-light))!important
+    background-image:-webkit-linear-gradient(top,$theme-gray2  0,$theme-orange-light 100%)!important
+    background-image:-o-linear-gradient(top,$theme-gray2  0,$theme-orange-light 100%)!important
+    background-image:linear-gradient(to bottom,$theme-gray2  0,$theme-orange-light 100%)!important
+    background-image:linear-gradient(to bottom,$theme-gray2  0,$theme-orange-light 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-gray2 ', endColorstr='$theme-orange-light', GradientType=0)!important
+
+section.bg-gradient-gray
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#eee ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(top,#eee  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(top,#eee  0,#FFF 100%)!important
+    background-image:linear-gradient(to bottom,#eee  0,#FFF 100%)!important
+    background-image:linear-gradient(to bottom,#eee  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee ', endColorstr='#FFF', GradientType=0)!important      
+
+section.bg-gradient-gray-left
+  background-image:-webkit-gradient(linear,left top,right top,from(#eee ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(left,#eee  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(left,#eee  0,#FFF 100%)!important
+    background-image:linear-gradient(to right,#eee  0,#FFF 100%)!important
+    background-image:linear-gradient(to right,#eee  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee ', endColorstr='#FFF', GradientType=0)!important      
+
+section.bg-gradient-gray-right
+  background-image:-webkit-gradient(linear,right top,left top,from(#eee ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(right,#eee  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(right,#eee  0,#FFF 100%)!important
+    background-image:linear-gradient(to left,#eee  0,#FFF 100%)!important
+    background-image:linear-gradient(to left,#eee  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee ', endColorstr='#FFF', GradientType=0)!important      
+
+section.bg-gradient-red
+  a
+    color: white!important
+  strong
+    color: white
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#af2323 ),to(#d04040))!important
+    background-image:-webkit-linear-gradient(top,#af2323  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(top,#af2323  0,#d04040 100%)!important
+    background-image:linear-gradient(to bottom,#af2323  0,#d04040 100%)!important
+    background-image:linear-gradient(to bottom,#af2323  0,#d04040 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#af2323 ', endColorstr='#d04040', GradientType=0)!important    
+
+section.bg-gradient-left
+  background-image:-webkit-gradient(linear,left top,right top,from(#f5c04a42 ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(left,#f5c04a42  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(left,#f5c04a42  0,#FFF 100%)!important
+    background-image:linear-gradient(to right,#f5c04a42  0,#FFF 100%)!important
+    background-image:linear-gradient(to right,#f5c04a42  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0)!important
+
+section.bg-gradient-right
+  background-image:-webkit-gradient(linear,right top,left top,from(#f5c04a42 ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(right,#f5c04a42  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(right,#f5c04a42  0,#FFF 100%)!important
+    background-image:linear-gradient(to left,#f5c04a42  0,#FFF 100%)!important
+    background-image:linear-gradient(to left,#f5c04a42  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0)!important
+
+section.darkbg
+  background-image: url(../img/darkbg.jpg)
+  background-size: cover
+
+section.bg-solid
+  background-color: #f5c04a42
+
+
+
+
+
+section.bg-primary
+  a
+    color: white!important
+  strong
+    color: white
+
+
+.section-heading 
+  margin-top: 0
+
+
+::-moz-selection 
+  color: white
+  background: $gray-darker
+  text-shadow: none
+
+
+::selection 
+  color: white
+  background: $gray-darker
+  text-shadow: none
+
+
+img::selection 
+  color: white
+  background: transparent
+
+
+img::-moz-selection 
+  color: white
+  background: transparent
+
+
+body 
+  -webkit-tap-highlight-color: $gray-darker
+
+
+/* temp, organizar luego en include*/
+
+#contact
+  .social
+    margin-top: 1em
+  .row
+    i.fa
+      margin-bottom: 0.15em
+  .col-sm-3
+    width: 93px
+
+div.clasescta
+  p
+    margin-bottom: 0.5em!important
+  h2  
+    font-size: 1.5em!important
+
+
+/* Headings */
+@media (max-width: 480px)
+  .row h2,
+  .container h2
+    font-size: 1.5rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+@media (min-width: 481px) and (max-width: 767px)
+  .row h2,
+  .container h2
+    font-size: 1.5rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+@media (min-width: 768px) and (max-width: 991px)
+  .row h2,
+  .container h2
+    font-size: 1.7rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+@media (min-width: 992px)
+  .row h2,
+  .container h2
+    font-size: 2rem
+  .row h3,
+  .container h3
+    font-size: 1.2em
+
+
+
+
+.test
+  color: $theme-gray2
+  display: flex
+  align-content: center
+  justify-content: space-evenly
+  .circle
+    width: 5em
+    height: 5em
+    border-radius: 50%
+  .primary
+    background-color: $theme-red
+  .bg-theme-red
+    background-color: $theme-red
+  .bg-theme-orange
+    background-color: $theme-orange
+  .bg-theme-yellow
+    background-color: $theme-yellow
+  .bg-theme-gray1
+    background-color: $theme-gray1
+  .bg-theme-gray2
+    background-color: $theme-gray2
+  .bg-theme-red-light
+    background-color: $theme-red-light
+  .bg-theme-orange-light
+    background-color: $theme-orange-light
+  .bg-theme-yellow-light
+    background-color: $theme-yellow-light
+  .bg-theme-gray1-light
+    background-color: $theme-gray1-light
+  .bg-theme-gray2-light
+    background-color: $theme-gray2-light

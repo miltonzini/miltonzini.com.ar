@@ -1,0 +1,88 @@
+// Styling for the masthead
+header.masthead 
+  position: relative
+  width: 100%
+  //min-height: 100vh!important
+  text-align: center
+  color: white
+  section.bg-gradient
+  background: rgb(250,210,211)
+  background: linear-gradient(145deg, $theme-primary-light-2 0%, $theme-yellow-light-2 36%, $theme-orange-light-2 60%, $theme-gray1-light-2 90%)
+  .header-content 
+    position: relative
+    width: 100%
+    padding: 150px 15px 100px
+    text-align: center
+    .header-content-inner 
+      h1 
+        font-size: 3rem!important
+        font-weight: 700
+        margin-top: 0
+        margin-bottom: 0
+      h2
+        font-size: 1.5rem
+      
+      hr 
+        margin: 30px auto
+      
+      p.description
+        color: $theme-red!important
+        font-weight: 300
+        margin-top: 1em
+        color: fade-out(white, .3)
+      .bg-text
+        background-color: rgba(0, 0, 0, 0.57)
+        padding: 0 5px 0 5px
+      
+    
+  
+  @media (min-width: 768px) 
+    height: 100%
+    min-height: 600px
+    .header-content 
+      position: absolute
+      top: 50%
+      padding: 0 50px
+      -webkit-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      transform: translateY(-50%)
+      .header-content-inner 
+        max-width: 1000px
+        margin-right: auto
+        margin-left: auto
+        h1 
+          font-size: 50px
+        
+        p 
+          font-size: 18px
+          max-width: 80%
+          margin-right: auto
+          margin-left: auto
+        
+  @media (max-width: 330px)    
+    .header-content .header-content-inner img
+      width: 250px  
+  @media (min-width: 331px) and (max-width: 480px)
+    .header-content .header-content-inner img
+      width: 280px
+  @media (min-width: 481px) and (max-width: 767px)
+    .header-content .header-content-inner img
+      width: 320px!important
+  @media (min-width: 768px) and (max-width: 991px)
+    .header-content .header-content-inner img
+      width: 400px
+  @media (min-width: 992px)
+    .header-content .header-content-inner img
+      width: 500px
+
+@media (max-width: 767px)
+  header.masthead
+    min-height: 92vh
+    .header-content
+      margin-top: 50px
+      min-height: 80vh
+      display: flex
+      justify-content: center
+      align-items: center
+
+
