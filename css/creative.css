@@ -92,12 +92,12 @@ body.sub header.main a {
   color: white !important; }
 
 section.bg-gradient {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5c04a42), to(#FFF)) !important;
-    background-image-background-image: -webkit-linear-gradient(top, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: -o-linear-gradient(top, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: linear-gradient(to bottom, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: linear-gradient(to bottom, #f5c04a42 0, #FFF 100%) !important;
-      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0) !important; }
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5c04a1f), to(#FFF)) !important;
+    background-image-background-image: -webkit-linear-gradient(top, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(top, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to bottom, #f5c04a1f 0, #FFF 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a1f ', endColorstr='#FFF', GradientType=0) !important; }
 
 section.bg-gradient-gray {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#FFF)) !important;
@@ -136,27 +136,27 @@ section.bg-gradient-red {
     color: white; }
 
 section.bg-gradient-left {
-  background-image: -webkit-gradient(linear, left top, right top, from(#f5c04a42), to(#FFF)) !important;
-    background-image-background-image: -webkit-linear-gradient(left, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: -o-linear-gradient(left, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: linear-gradient(to right, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: linear-gradient(to right, #f5c04a42 0, #FFF 100%) !important;
-      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0) !important; }
+  background-image: -webkit-gradient(linear, left top, right top, from(#f5c04a1f), to(#FFF)) !important;
+    background-image-background-image: -webkit-linear-gradient(left, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(left, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to right, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to right, #f5c04a1f 0, #FFF 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a1f ', endColorstr='#FFF', GradientType=0) !important; }
 
 section.bg-gradient-right {
-  background-image: -webkit-gradient(linear, right top, left top, from(#f5c04a42), to(#FFF)) !important;
-    background-image-background-image: -webkit-linear-gradient(right, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: -o-linear-gradient(right, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: linear-gradient(to left, #f5c04a42 0, #FFF 100%) !important;
-    background-image-background-image: linear-gradient(to left, #f5c04a42 0, #FFF 100%) !important;
-      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a42 ', endColorstr='#FFF', GradientType=0) !important; }
+  background-image: -webkit-gradient(linear, right top, left top, from(#f5c04a1f), to(#FFF)) !important;
+    background-image-background-image: -webkit-linear-gradient(right, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: -o-linear-gradient(right, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to left, #f5c04a1f 0, #FFF 100%) !important;
+    background-image-background-image: linear-gradient(to left, #f5c04a1f 0, #FFF 100%) !important;
+      background-image-background-image-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5c04a1f ', endColorstr='#FFF', GradientType=0) !important; }
 
 section.darkbg {
   background-image: url(../img/darkbg.jpg);
   background-size: cover; }
 
 section.bg-solid {
-  background-color: #f5c04a42; }
+  background-color: #f5c04a1f; }
 
 section.bg-primary a {
   color: white !important; }
@@ -446,6 +446,9 @@ header.masthead {
   #videos .description p {
     font-size: 0.8em;
     margin: 0px; }
+  #videos .description a, #videos .description .fa {
+    font-size: 1.25em;
+    vertical-align: middle; }
 
 @media (min-width: 992px) {
   #videos .wrapper {
