@@ -452,7 +452,7 @@ header.masthead {
 
 @media (min-width: 992px) {
   #videos .wrapper {
-    max-width: 70vw;
+    max-width: 60vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
