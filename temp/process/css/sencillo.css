@@ -349,7 +349,7 @@ p {
 }
 .header nav {
   background-color: #fff;
-  color: #292A35;
+  color: #383E74;
   padding-top: 35px;
   padding-bottom: 35px;
   position: fixed;
@@ -359,6 +359,26 @@ p {
   -webkit-transition: 0.6s;
   transition: 0.6s;
   z-index: 10005;
+}
+.header nav .nav-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1100px) {
+  .header nav .nav-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1101px) and (max-width: 1400px) {
+  .header nav .nav-wrapper {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1401px) {
+  .header nav .nav-wrapper {
+    max-width: 1200px;
+  }
 }
 .header nav a {
   opacity: 80%;
@@ -372,15 +392,15 @@ p {
   transition: 0.6s;
 }
 .header__textlogo {
-  color: #292A35;
+  color: #383E74;
   text-align: center;
 }
 .header__textlogo .name {
-  font-size: 1.2rem;
+  font-size: 1.44rem;
 }
 .header__textlogo .description {
-  font-size: 0.833rem;
-  font-weight: light;
+  font-size: 1rem;
+  font-weight: 100;
 }
 @media (max-width: 819px) {
   .header__toggle {
@@ -428,7 +448,7 @@ p {
   padding-bottom: 1.5rem;
   position: absolute;
   border-radius: 5px;
-  top: 4.5rem;
+  top: 6.5rem;
   right: 2rem;
   left: 2rem;
   z-index: 10005;

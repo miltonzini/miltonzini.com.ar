@@ -25,7 +25,7 @@
     nav
         background-color: $white
         //opacity: 0.3
-        color: $theme-dark
+        color: $theme-primary
         padding-top: 35px 
         padding-bottom: 35px 
         position: fixed
@@ -34,6 +34,16 @@
         width: 100%
         transition: 0.6s
         z-index: 10005
+        .nav-wrapper
+            margin-left: auto
+            margin-right: auto   
+            @media (max-width: 1100px)
+                padding-left: 20px
+                padding-right: 20px
+            @media (min-width: 1101px) and (max-width: 1400px)
+                max-width: 1100px
+            @media (min-width: 1401px)
+                max-width: 1200px
 
         a
             opacity: 80%
@@ -51,13 +61,13 @@
         //visibility: hidden
         //transition: 0.6s
         //color: rgba(1, 1, 1, 0.01 )
-        color: $theme-dark
+        color: $theme-primary
         text-align: center
         .name
-            font-size: $fz-h4
+            font-size: $fz-h3
         .description
-            font-size: $fz-small
-            font-weight: light
+            font-size: $fz-p
+            font-weight: 100
 
 
 
@@ -100,7 +110,7 @@
         padding-bottom: 1.5rem
         position: absolute
         border-radius: 5px
-        top: 4.5rem
+        top: 6.5rem
         right: 2rem
         left: 2rem
         z-index: 10005
