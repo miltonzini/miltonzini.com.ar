@@ -123,7 +123,6 @@ html {
 .body {
   margin: 0;
   padding: 0;
-  line-height: 3.5rem;
 }
 .body.noscroll {
   overflow: hidden;
@@ -140,6 +139,10 @@ strong {
 h1 {
   font-family: "Merriweather", serif;
   font-weight: bold;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 .container {
@@ -195,7 +198,7 @@ h1 {
 }
 
 section {
-  scroll-margin-top: 51px;
+  scroll-margin-top: 129px;
 }
 
 h1 {
@@ -220,6 +223,10 @@ p {
 
 .small {
   font-size: 0.833rem;
+}
+
+.nano {
+  font-size: 0.66rem;
 }
 
 .flex {
@@ -426,6 +433,7 @@ p {
   margin-bottom: 5px;
 }
 .header .sticky {
+  font-size: 12px;
   background-color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -470,7 +478,7 @@ p {
   }
 }
 .header__links a {
-  font-size: 0.833rem;
+  font-size: 1rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -485,6 +493,7 @@ section#masthead {
   background-color: #E5E5E5;
   background: url(../img/misc/hero.jpg);
   background-size: cover;
+  margin-top: 5.58rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -539,38 +548,34 @@ section#masthead .arrow {
   color: #d6470a;
 }
 
+section#bio {
+  padding: 110px 20px;
+  color: #292A35;
+  background: #E5E5E5;
+}
+
+section#videos {
+  padding: 110px 20px;
+  color: #292A35;
+  background: #fff;
+}
+
+section#proyectos {
+  padding: 110px 20px;
+  color: #292A35;
+  background: #E5E5E5;
+}
+
+section#clases {
+  padding: 110px 20px;
+  color: #292A35;
+  background: #fff;
+}
+
 section#contact {
   padding: 110px 20px;
   background: #E5E5E5;
   color: #292A35;
-  text-align: center;
-  line-height: 1.3em;
-}
-section#contact .link-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 0.5rem;
-}
-section#contact .link-wrapper svg {
-  margin-right: 0.3rem;
-  width: 1.5rem;
-}
-section#contact .link-wrapper-whatsapp p {
-  padding-top: 0.125rem;
-}
-section#contact h2 {
-  max-width: 29rem;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.3em;
 }
 
 section.footer {
