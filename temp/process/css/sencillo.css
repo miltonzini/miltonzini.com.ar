@@ -130,7 +130,7 @@ html {
 }
 
 a, a:visited, a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 strong {
@@ -350,8 +350,8 @@ p {
 .header nav {
   background-color: #fff;
   color: #292A35;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   position: fixed;
   top: 0;
   left: 0;
@@ -365,20 +365,22 @@ p {
 }
 .header nav a:hover {
   opacity: 100%;
-  color: #fff;
 }
 .header__logo {
-  width: 1px;
   visibility: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
 .header__textlogo {
-  font-size: 0.000009rem;
-  visibility: hidden;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-  color: rgba(1, 1, 1, 0.01);
+  color: #292A35;
+  text-align: center;
+}
+.header__textlogo .name {
+  font-size: 1.2rem;
+}
+.header__textlogo .description {
+  font-size: 0.833rem;
+  font-weight: light;
 }
 @media (max-width: 819px) {
   .header__toggle {
@@ -405,6 +407,8 @@ p {
 }
 .header .sticky {
   background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header .sticky .header__logo {
   visibility: visible;
@@ -413,7 +417,7 @@ p {
 .header .sticky .header__textlogo {
   visibility: visible;
   font-size: 1rem;
-  color: #E5E5E5;
+  color: #383E74;
 }
 .header .sticky a {
   opacity: 100%;
