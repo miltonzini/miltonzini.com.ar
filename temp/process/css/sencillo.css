@@ -507,7 +507,16 @@ section#masthead {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+}
+@media (max-width: 690px) {
+  section#masthead {
+    padding: 4rem 0;
+  }
+}
+@media (min-width: 691px) {
+  section#masthead {
+    padding: 5.625rem 0;
+  }
 }
 @media (max-width: 574px) {
   section#masthead img.logo {
@@ -541,11 +550,6 @@ section#masthead h3.lg {
   font-size: 1.698rem;
   margin-bottom: 1.5rem;
   opacity: 0.82;
-}
-section#masthead .arrow {
-  font-size: 1.6em;
-  margin-top: 1em;
-  color: #d6470a;
 }
 
 section#bio {
@@ -588,4 +592,68 @@ section.footer {
 section.footer p {
   text-align: center;
   font-size: 0.7rem;
+}
+
+.img-and-description .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 690px) {
+  .img-and-description .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+@media (min-width: 691px) {
+  .img-and-description .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+.img-and-description div.img img {
+  max-width: 20rem;
+}
+@media (max-width: 380px) {
+  .img-and-description div.img img {
+    max-width: 93%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 381px) and (max-width: 690px) {
+  .img-and-description div.img img {
+    max-width: 93%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 691px) and (max-width: 796px) {
+  .img-and-description div.img img {
+    max-width: 15rem;
+    margin-right: 1.5rem;
+    -webkit-transform: translateY(0.25rem);
+            transform: translateY(0.25rem);
+  }
+}
+@media (min-width: 797px) {
+  .img-and-description div.img img {
+    margin-right: 1.5rem;
+    -webkit-transform: translateY(0.25rem);
+            transform: translateY(0.25rem);
+  }
+}
+.img-and-description .text {
+  width: 100%;
+}
+@media (min-width: 691px) {
+  .img-and-description .text {
+    max-width: 23rem;
+  }
 }

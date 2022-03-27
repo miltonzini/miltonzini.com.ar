@@ -1,0 +1,35 @@
+.img-and-description
+    .row
+        display: flex
+        @media (max-width: 690px)
+            flex-direction: column
+            justify-content: center
+            text-align: center
+        @media (min-width: 691px)
+            flex-direction: row
+    
+    div.img
+        //background: #cc99ff
+        img
+            max-width: 20rem
+            @media (max-width: 380px)
+                max-width: 93%
+                margin-bottom: 1rem
+            @media (min-width: 381px) and (max-width: 690px)
+                max-width: 93%
+                margin-bottom: 1rem
+            
+            @media (min-width: 691px) and (max-width: 796px)
+                max-width: 15rem
+                margin-right: 1.5rem
+                transform: translateY(0.25rem)
+
+            @media (min-width: 797px)
+                margin-right: 1.5rem
+                transform: translateY(0.25rem)
+
+    .text
+        //background: pink
+        width: 100%
+        @media (min-width: 691px)
+            max-width: 23rem
