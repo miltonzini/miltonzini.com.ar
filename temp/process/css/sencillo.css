@@ -557,6 +557,20 @@ section#bio {
   color: #292A35;
   background: #E5E5E5;
 }
+@media (max-width: 850px) {
+  section#bio .text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+}
+@media (min-width: 851px) {
+  section#bio .text {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 5;
+    grid-column: 2/7;
+  }
+}
 
 section#videos {
   padding: 110px 20px;
