@@ -573,7 +573,7 @@ section#bio {
 }
 
 section#videos {
-  padding: 110px 20px;
+  padding: 50px 20px;
   color: rgba(41, 42, 53, 0.8);
   background: #fff;
 }
@@ -642,6 +642,9 @@ section#videos .slider-mz {
     grid-column: 7/12;
     padding-left: 2rem;
   }
+}
+section#videos .slide {
+  width: 100%;
 }
 
 section#proyectos {
