@@ -129,7 +129,7 @@ html {
 }
 
 a, a:visited, a:hover {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 strong {
@@ -228,6 +228,9 @@ p {
     max-width: 1500px;
   }
 }
+.row a, .row a:visited, .row a:hover {
+  font-weight: bold;
+}
 
 .grid {
   display: -ms-grid;
@@ -294,25 +297,27 @@ section .row-container {
   display: block;
 }
 section .left-title {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  height: 1.2rem;
 }
 @media (max-width: 850px) {
   section .left-title {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-column: 1/13;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
   }
 }
 @media (min-width: 851px) {
   section .left-title {
     -ms-grid-column: 3;
-    -ms-grid-column-span: 5;
-    grid-column: 3/8;
+    -ms-grid-column-span: 9;
+    grid-column: 3/12;
   }
 }
 section .right-title {
   text-align: right;
-  margin-bottom: 1rem;
+  height: 1.2rem;
+  margin-bottom: 0;
 }
 @media (max-width: 850px) {
   section .right-title {
