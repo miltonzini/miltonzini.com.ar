@@ -136,6 +136,33 @@ strong {
   font-weight: bold;
 }
 
+.section-title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr 20px [col-start] 20px 1fr;
+  grid-template-columns: repeat(16, [col-start] 1fr);
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+.section-title h3, .section-title h4, .section-title h5, .section-title h6 {
+  margin-bottom: 1rem;
+}
+@media (max-width: 850px) {
+  .section-title h3, .section-title h4, .section-title h5, .section-title h6 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+}
+@media (min-width: 851px) {
+  .section-title h3, .section-title h4, .section-title h5, .section-title h6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 4;
+    grid-column: 3/7;
+  }
+}
+
 h1 {
   font-family: "Merriweather", serif;
   font-weight: bold;
@@ -178,8 +205,8 @@ p {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: repeat(12, 1fr);
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: repeat(16, 1fr);
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
@@ -196,9 +223,46 @@ p {
     grid-template-columns: repeat(12, 1fr);
   }
 }
+.grid .left-grid-text {
+  text-align: left;
+}
+@media (max-width: 850px) {
+  .grid .left-grid-text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+}
+@media (min-width: 851px) {
+  .grid .left-grid-text {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 10;
+    grid-column: 3/13;
+  }
+}
 
 section {
   scroll-margin-top: 129px;
+}
+section .row-container {
+  display: block;
+}
+section .left-title {
+  margin-bottom: 1rem;
+}
+@media (max-width: 850px) {
+  section .left-title {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+}
+@media (min-width: 851px) {
+  section .left-title {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 5;
+    grid-column: 3/8;
+  }
 }
 
 h1 {
@@ -567,8 +631,8 @@ section#bio {
 @media (min-width: 851px) {
   section#bio .text {
     -ms-grid-column: 2;
-    -ms-grid-column-span: 5;
-    grid-column: 2/7;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
   }
 }
 
@@ -576,34 +640,6 @@ section#videos {
   padding: 50px 20px;
   color: rgba(41, 42, 53, 0.8);
   background: #fff;
-}
-section#videos .row-container {
-  display: block;
-}
-section#videos .section-title {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: ([col-start] 1fr)[12];
-  grid-template-columns: repeat(12, [col-start] 1fr);
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-section#videos .section-title h3 {
-  margin-bottom: 1rem;
-}
-@media (max-width: 850px) {
-  section#videos .section-title h3 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-column: 1/13;
-  }
-}
-@media (min-width: 851px) {
-  section#videos .section-title h3 {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 5;
-    grid-column: 2/7;
-  }
 }
 section#videos .slider-mz {
   display: -ms-grid;
@@ -622,9 +658,9 @@ section#videos .slider-mz {
 }
 @media (min-width: 851px) {
   section#videos .slider-mz .video {
-    -ms-grid-column: 2;
+    -ms-grid-column: 3;
     -ms-grid-column-span: 5;
-    grid-column: 2/7;
+    grid-column: 3/8;
   }
 }
 @media (max-width: 850px) {
@@ -637,9 +673,9 @@ section#videos .slider-mz {
 }
 @media (min-width: 851px) {
   section#videos .slider-mz .text {
-    -ms-grid-column: 7;
-    -ms-grid-column-span: 5;
-    grid-column: 7/12;
+    -ms-grid-column: 8;
+    -ms-grid-column-span: 8;
+    grid-column: 8/16;
     padding-left: 2rem;
   }
 }
@@ -655,6 +691,11 @@ section#proyectos {
   padding: 110px 20px;
   color: rgba(41, 42, 53, 0.8);
   background: #E5E5E5;
+}
+section#proyectos .project {
+  color: #383E74;
+  padding-bottom: 0;
+  margin: 1rem 0 0 0;
 }
 
 section#clases {

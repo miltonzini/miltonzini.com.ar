@@ -45,6 +45,18 @@ a, a:visited, a:hover
 strong
     font-weight: bold
 
+
+.section-title
+    display: grid
+    grid-template-columns: repeat(16, [col-start] 1fr)
+    column-gap: 20px
+    h3, h4, h5, h6
+        margin-bottom: 1rem
+        @media (max-width: 850px)
+            grid-column: 1 / 13
+        @media (min-width: 851px)
+            grid-column: 3 / 7
+
 h1
     font-family: 'Merriweather', serif
     font-weight: bold
@@ -73,7 +85,7 @@ p
 .grid
     display: grid
     width: 100%
-    grid-template-columns: repeat( 12, 1fr)
+    grid-template-columns: repeat( 16, 1fr)
     column-gap: 20px
 
     &-responsive
@@ -81,6 +93,13 @@ p
             grid-template-columns: 1fr
         @media (min-width: 691px)
             grid-template-columns: repeat( 12, 1fr)
+    
+    .left-grid-text
+        text-align: left
+        @media (max-width: 850px)
+            grid-column: 1 / 13
+        @media (min-width: 851px)
+            grid-column: 3 / 13
 
     
     
@@ -88,7 +107,16 @@ p
 section
     scroll-margin-top: 129px // navbar height
 
-// font-sizes
+    .row-container
+        display: block
+
+    .left-title
+        margin-bottom: 1rem
+        @media (max-width: 850px)
+            grid-column: 1 / 13
+        @media (min-width: 851px)
+            grid-column: 3 / 8
+            
 h1
     font-size: $fz-h1
 h2
