@@ -325,6 +325,7 @@ section .right-title {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     grid-column: 1/13;
+    margin-top: 1rem;
   }
 }
 @media (min-width: 851px) {
