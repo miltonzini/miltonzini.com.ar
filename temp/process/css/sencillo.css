@@ -780,6 +780,31 @@ section#contact {
   background: #E5E5E5;
   color: rgba(41, 42, 53, 0.8);
 }
+section#contact .social-icons {
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (max-width: 850px) {
+  section#contact .social-icons {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 16;
+    grid-column: 1/17;
+  }
+}
+@media (min-width: 851px) {
+  section#contact .social-icons {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 10;
+    grid-column: 3/13;
+  }
+}
+section#contact .social-icons .icon {
+  padding: 0 0.5rem;
+}
+section#contact .social-icons .icon:nth-of-type(1) {
+  padding-left: 0;
+}
 
 section.footer {
   font-size: 0.7rem;
