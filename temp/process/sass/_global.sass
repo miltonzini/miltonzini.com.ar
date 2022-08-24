@@ -46,7 +46,7 @@ strong
     font-weight: bold
 
 
-.section-title
+.section-title-left
     display: grid
     grid-template-columns: repeat(16, [col-start] 1fr)
     column-gap: 20px
@@ -56,6 +56,18 @@ strong
             grid-column: 1 / 13
         @media (min-width: 851px)
             grid-column: 3 / 7
+
+.section-title-right
+    text-align: right
+    display: grid
+    grid-template-columns: repeat(16, [col-start] 1fr)
+    column-gap: 20px
+    h3, h4, h5, h6
+        margin-bottom: 1rem
+        @media (max-width: 850px)
+            grid-column: 1 / 13
+        @media (min-width: 851px)
+            grid-column: 8 / 15
 
 h1
     font-family: 'Merriweather', serif
@@ -100,7 +112,14 @@ p
             grid-column: 1 / 17
         @media (min-width: 851px)
             grid-column: 3 / 13
-
+    
+    .right-grid-text
+        text-align: right
+        @media (max-width: 850px)
+            text-align: left
+            grid-column: 1 / 17
+        @media (min-width: 851px)
+            grid-column: 5 / 15
     
     
 
@@ -116,7 +135,17 @@ section
             grid-column: 1 / 13
         @media (min-width: 851px)
             grid-column: 3 / 8
-            
+        
+    .right-title
+        text-align: right
+        margin-bottom: 1rem
+        @media (max-width: 850px)
+            text-align: left
+            grid-column: 1 / 13
+        @media (min-width: 851px)
+            grid-column: 8 / 15
+
+    
 h1
     font-size: $fz-h1
 h2
