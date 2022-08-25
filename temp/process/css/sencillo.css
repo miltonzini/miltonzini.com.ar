@@ -686,6 +686,9 @@ section#masthead h3.lg {
   margin-bottom: 1.5rem;
   opacity: 0.82;
 }
+section#masthead p {
+  margin-top: 0.5rem;
+}
 
 section#bio {
   padding: 110px 20px;
