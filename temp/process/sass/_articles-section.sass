@@ -16,6 +16,7 @@ section.articles-section
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15), -8px -8px 31px darken(white, 2.5%)
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
         transition: 0.3s
+        
 
         &:hover
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
@@ -27,8 +28,12 @@ section.articles-section
         @include breakpoint-up(medium)
             display: flex
             flex-direction: row
+            align-items: flex-start
             width: 37.2em
             padding: 1.2em 1.2em 1.2em 1.2em
+
+        h5
+            color: $theme-primary
 
             
 
@@ -46,13 +51,15 @@ section.articles-section
         .img-wrapper
             padding: 0
             margin: 0
+            align-items: flex-start
             @include breakpoint-up(medium)
-                min-width: 5.5rem
+                min-width: 6.5rem
+                
                 
             img
                 width: 4em
                 @include breakpoint-up(medium)
-                    width: 5.5rem
+                    width: 100%
                 @include breakpoint-down(small)
                     width: 6rem
                     margin-bottom: 0.7rem
@@ -88,5 +95,4 @@ section.articles-section
         right: 0
         bottom: 0
         content: ' '
-
 

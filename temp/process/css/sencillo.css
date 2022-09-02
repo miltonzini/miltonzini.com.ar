@@ -996,17 +996,26 @@ section.articles-section .card-wrapper .card:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     width: 37.2em;
     padding: 1.2em 1.2em 1.2em 1.2em;
   }
 }
+section.articles-section .card-wrapper .card h5 {
+  color: #383E74;
+}
 section.articles-section .card-wrapper .card .img-wrapper {
   padding: 0;
   margin: 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 @media (min-width: 40em) {
   section.articles-section .card-wrapper .card .img-wrapper {
-    min-width: 5.5rem;
+    min-width: 6.5rem;
   }
 }
 section.articles-section .card-wrapper .card .img-wrapper img {
@@ -1014,7 +1023,7 @@ section.articles-section .card-wrapper .card .img-wrapper img {
 }
 @media (min-width: 40em) {
   section.articles-section .card-wrapper .card .img-wrapper img {
-    width: 5.5rem;
+    width: 100%;
   }
 }
 @media (max-width: 39.9375em) {
