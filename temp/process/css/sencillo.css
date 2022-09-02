@@ -950,12 +950,12 @@ section.articles-section {
   color: rgba(41, 42, 53, 0.8);
   background: #fff;
 }
-section.articles-section .cards .card {
+section.articles-section .card-wrapper .card {
   list-style: none;
   position: relative;
   background-color: #fff;
-  padding: 1em;
-  margin: 1em;
+  margin: 0.6em;
+  padding: 3rem 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -966,50 +966,6 @@ section.articles-section .cards .card {
   border-radius: 8px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), -8px -8px 31px #f9f9f9;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), -8px -8px 31px #f9f9f9;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-section.articles-section .cards .card:hover {
-  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-section.articles-section .cards a.main {
-  display: block;
-  z-index: 1;
-}
-section.articles-section .cards .card a.main::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: " ";
-}
-@media (min-width: 40em) {
-  section.articles-section .card-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-@media (max-width: 39.9375em) {
-  section.articles-section .card-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-section.articles-section .card-wrapper .card {
-  margin: 0.6em;
-  padding: 3rem 1.5rem;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
@@ -1026,6 +982,9 @@ section.articles-section .card-wrapper .card:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 @media (min-width: 40em) {
@@ -1083,4 +1042,16 @@ section.articles-section .card-wrapper .card h3 {
   font-weight: 600;
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
+}
+section.articles-section .card-wrapper a.main {
+  display: block;
+  z-index: 1;
+}
+section.articles-section .card-wrapper .card a.main::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
 }
