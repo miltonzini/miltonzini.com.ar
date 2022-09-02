@@ -3,24 +3,109 @@ section.articles-section
     color: $theme-dark
     background: $white
 
-    .fullclick li 
+    .cards .card 
         list-style: none
-        margin: 1em 0
-        padding: 20px 10px
-        background: $theme-soft
+        //margin: 1em 0
+        //padding: 20px 10px
+        //background: $theme-soft
         position: relative
+        background-color: $white
+        padding: 1em
+        margin: 1em
+        display: flex
+        align-items: center
+        //min-height: 18em
+        max-width: 30rem 
+        min-width: 30rem
+        border-radius: 8px
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.15), -8px -8px 31px darken(white, 2.5%)
+        transition: 0.3s
         
-    .fullclick a.main 
-        color: #85baff
-        text-align: right
+        &:hover
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+        
+    .cards a.main 
+        //color: #85baff
+        //text-align: right
         display: block
         z-index: 1
         
-    .fullclick li a.main::after 
+    .cards .card a.main::after 
         position: absolute
         top: 0
         left: 0
         right: 0
         bottom: 0
         content: ' '
+
+
+
+    .card-wrapper
+        @include breakpoint-up(medium)
+            display: flex
+            flex-direction: column
+        @include breakpoint-down(small)
+            display: flex
+            flex-direction: column
+    
+        .card
+            background: white
+            margin: 0.6em
+            text-align: center
+            padding: 3rem 1.5rem
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+            transition: 0.3s
+            
+            &:hover
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+            @include breakpoint-down(small)
+                padding: 1.5em 1.2em
+            @include breakpoint-up(medium)
+                display: flex
+                flex-direction: row
+                width: 37.2em
+                padding: 1.2em 1.2em 1.2em 1.2em
+            &-1
+                //background-color: #e1d7f0
+            &-2
+                //background-color: #ecfff1
+            &-3
+                //background-color: #f5dbdb
+            
+            .img-wrapper
+                padding: 0
+                margin: 0
+                //background: cyan
+                @include breakpoint-up(medium)
+                    min-width: 5.5rem
+
+                img
+                    //width: 4em
+                        max-width: 100%
+                    @include breakpoint-up(medium)
+                        width: 5.5rem
+                        //margin-top: 0.8em
+                    @include breakpoint-down(small)
+                        width: 3.3em
+
+            .info-wrapper
+                //background: #99ffcc
+                @include breakpoint-up(medium)
+                    text-align: left
+                    padding-left: 1em
+                    .btn-wrapper
+                        margin-top: 0.5em
+                        justify-content: flex-start
+                
+                p
+                    line-height: 1.5
+
+            h3
+                font-size: 1.2rem
+                font-weight: 600
+                margin-top: 0.7rem
+                margin-bottom: 0.7rem
+
+
+// mergear .cards y .card-wrapper - probar usar estilos como los que usé acá: https://miltonzini.com.ar/clases.html
         
