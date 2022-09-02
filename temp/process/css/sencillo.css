@@ -429,14 +429,14 @@ p {
   color: #383E74;
 }
 .btn-regular:hover {
-  color: #E5E5E5;
+  color: #f3f3f3;
   background: #383E74;
   border: 2px solid #383E74;
 }
 .btn-accent {
   border: 1px solid #d6470a;
   background: #d6470a;
-  color: #E5E5E5;
+  color: #f3f3f3;
 }
 .btn-accent:hover {
   border: 1px solid #ee4f0b;
@@ -470,7 +470,7 @@ p {
 
 .modal-content {
   color: rgba(41, 42, 53, 0.8);
-  background-color: #E5E5E5;
+  background-color: #f3f3f3;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
@@ -588,7 +588,7 @@ p {
   display: block;
   width: 26px;
   height: 2px;
-  background: #E5E5E5;
+  background: #f3f3f3;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   -webkit-transform-origin: 3px 1px;
@@ -616,7 +616,7 @@ p {
   opacity: 100%;
 }
 .header__menu {
-  background-color: #E5E5E5;
+  background-color: #f3f3f3;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   position: absolute;
@@ -654,8 +654,8 @@ p {
 }
 
 section#masthead {
-  color: #E5E5E5;
-  background-color: #E5E5E5;
+  color: #f3f3f3;
+  background-color: #f3f3f3;
   background: url(../img/misc/hero.jpg);
   background-size: cover;
   margin-top: 5.58rem;
@@ -723,7 +723,7 @@ section#masthead p {
 section#bio {
   padding: 110px 20px;
   color: rgba(41, 42, 53, 0.8);
-  background: #E5E5E5;
+  background: #f3f3f3;
 }
 @media (max-width: 850px) {
   section#bio .text {
@@ -794,7 +794,7 @@ section#videos .slide .row {
 section#proyectos {
   padding: 110px 20px;
   color: rgba(41, 42, 53, 0.8);
-  background: #E5E5E5;
+  background: #f3f3f3;
 }
 section#proyectos .project {
   color: #383E74;
@@ -810,7 +810,7 @@ section#clases {
 
 section#contact {
   padding: 110px 20px;
-  background: #E5E5E5;
+  background: #f3f3f3;
   color: rgba(41, 42, 53, 0.8);
 }
 section#contact .social-icons {
@@ -927,7 +927,7 @@ section.soft-masthead {
   padding: 110px 20px;
   margin-top: 5.58rem;
   color: rgba(41, 42, 53, 0.8);
-  background: #E5E5E5;
+  background: #f3f3f3;
 }
 @media (max-width: 850px) {
   section.soft-masthead .text {
