@@ -892,3 +892,30 @@ section.footer p {
     max-width: 23rem;
   }
 }
+
+section.soft-masthead {
+  padding: 110px 20px;
+  margin-top: 5.58rem;
+  color: rgba(41, 42, 53, 0.8);
+  background: #E5E5E5;
+}
+@media (max-width: 850px) {
+  section.soft-masthead .text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 15;
+    grid-column: 1/16;
+  }
+}
+@media (min-width: 851px) {
+  section.soft-masthead .text {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 8;
+    grid-column: 2/10;
+  }
+}
+
+section.articles-section {
+  padding: 2rem 20px;
+  color: rgba(41, 42, 53, 0.8);
+  background: #fff;
+}
