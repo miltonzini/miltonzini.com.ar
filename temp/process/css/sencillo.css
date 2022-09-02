@@ -963,7 +963,6 @@ section.articles-section .cards .card {
       -ms-flex-align: center;
           align-items: center;
   max-width: 30rem;
-  min-width: 30rem;
   border-radius: 8px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), -8px -8px 31px #f9f9f9;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), -8px -8px 31px #f9f9f9;
@@ -985,9 +984,6 @@ section.articles-section .cards .card a.main::after {
   right: 0;
   bottom: 0;
   content: " ";
-}
-section.articles-section .card-wrapper {
-  background: pink;
 }
 @media (min-width: 40em) {
   section.articles-section .card-wrapper {
@@ -1012,9 +1008,7 @@ section.articles-section .card-wrapper {
   }
 }
 section.articles-section .card-wrapper .card {
-  background: white;
   margin: 0.6em;
-  text-align: center;
   padding: 3rem 1.5rem;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1028,6 +1022,10 @@ section.articles-section .card-wrapper .card:hover {
 @media (max-width: 39.9375em) {
   section.articles-section .card-wrapper .card {
     padding: 1.5em 1.2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 @media (min-width: 40em) {
@@ -1052,6 +1050,9 @@ section.articles-section .card-wrapper .card .img-wrapper {
     min-width: 5.5rem;
   }
 }
+section.articles-section .card-wrapper .card .img-wrapper img {
+  width: 4em;
+}
 @media (min-width: 40em) {
   section.articles-section .card-wrapper .card .img-wrapper img {
     width: 5.5rem;
@@ -1059,7 +1060,8 @@ section.articles-section .card-wrapper .card .img-wrapper {
 }
 @media (max-width: 39.9375em) {
   section.articles-section .card-wrapper .card .img-wrapper img {
-    width: 3.3em;
+    width: 6rem;
+    margin-bottom: 0.7rem;
   }
 }
 @media (min-width: 40em) {
@@ -1067,11 +1069,10 @@ section.articles-section .card-wrapper .card .img-wrapper {
     text-align: left;
     padding-left: 1em;
   }
-  section.articles-section .card-wrapper .card .info-wrapper .btn-wrapper {
-    margin-top: 0.5em;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+}
+@media (max-width: 39.9375em) {
+  section.articles-section .card-wrapper .card .info-wrapper {
+    text-align: center;
   }
 }
 section.articles-section .card-wrapper .card .info-wrapper p {
