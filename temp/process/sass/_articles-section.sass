@@ -2,3 +2,25 @@ section.articles-section
     padding: 2rem 20px
     color: $theme-dark
     background: $white
+
+    .fullclick li 
+        list-style: none
+        margin: 1em 0
+        padding: 20px 10px
+        background: $theme-soft
+        position: relative
+        
+    .fullclick a.main 
+        color: #85baff
+        text-align: right
+        display: block
+        z-index: 1
+        
+    .fullclick li a.main::after 
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        content: ' '
+        

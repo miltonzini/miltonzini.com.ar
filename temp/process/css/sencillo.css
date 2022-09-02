@@ -919,3 +919,24 @@ section.articles-section {
   color: rgba(41, 42, 53, 0.8);
   background: #fff;
 }
+section.articles-section .fullclick li {
+  list-style: none;
+  margin: 1em 0;
+  padding: 20px 10px;
+  background: #E5E5E5;
+  position: relative;
+}
+section.articles-section .fullclick a.main {
+  color: #85baff;
+  text-align: right;
+  display: block;
+  z-index: 1;
+}
+section.articles-section .fullclick li a.main::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+}
