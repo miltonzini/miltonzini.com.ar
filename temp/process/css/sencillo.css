@@ -267,8 +267,8 @@ p {
 @media (min-width: 851px) {
   .grid .left-grid-text {
     -ms-grid-column: 3;
-    -ms-grid-column-span: 10;
-    grid-column: 3/13;
+    -ms-grid-column-span: 9;
+    grid-column: 3/12;
   }
 }
 .grid .right-grid-text {
@@ -284,9 +284,9 @@ p {
 }
 @media (min-width: 851px) {
   .grid .right-grid-text {
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 10;
-    grid-column: 5/15;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 9;
+    grid-column: 6/15;
   }
 }
 
@@ -329,7 +329,6 @@ section .row-container {
 }
 section .left-title {
   margin-bottom: 0;
-  height: 1.2rem;
 }
 @media (max-width: 850px) {
   section .left-title {
