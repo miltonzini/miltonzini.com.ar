@@ -1027,7 +1027,7 @@ section.articles-section .card-wrapper .card .img-wrapper img {
 }
 @media (max-width: 39.9375em) {
   section.articles-section .card-wrapper .card .img-wrapper img {
-    width: 6rem;
+    width: 8rem;
     margin-bottom: 0.7rem;
   }
 }
