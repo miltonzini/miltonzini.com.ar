@@ -196,6 +196,12 @@ h1 {
   font-weight: bold;
 }
 
+.item-title {
+  color: #383E74;
+  padding-bottom: 0;
+  margin: 1rem 0 0 0;
+}
+
 p {
   line-height: 1.5rem;
 }
@@ -795,11 +801,6 @@ section#proyectos {
   padding: 110px 20px;
   color: rgba(41, 42, 53, 0.8);
   background: #f3f3f3;
-}
-section#proyectos .project {
-  color: #383E74;
-  padding-bottom: 0;
-  margin: 1rem 0 0 0;
 }
 
 section#clases {
