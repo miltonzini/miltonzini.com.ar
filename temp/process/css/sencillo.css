@@ -924,6 +924,18 @@ section.footer p {
   }
 }
 
+section.reg-soft-section {
+  padding: 110px 20px;
+  color: rgba(41, 42, 53, 0.8);
+  background: #f3f3f3;
+}
+
+section.reg-white-section {
+  padding: 110px 20px;
+  color: rgba(41, 42, 53, 0.8);
+  background: #fff;
+}
+
 section.soft-masthead {
   padding: 110px 20px;
   margin-top: 5.58rem;
