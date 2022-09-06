@@ -1076,3 +1076,13 @@ section.articles-section .card-wrapper .card a.main::after {
   bottom: 0;
   content: " ";
 }
+
+section.link-list h4 {
+  color: #383E74;
+}
+section.link-list .item-title {
+  color: rgba(41, 42, 53, 0.8);
+}
+section.link-list a, section.link-list a:visited, section.link-list a:hover {
+  font-weight: normal;
+}
