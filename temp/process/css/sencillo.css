@@ -1079,10 +1079,14 @@ section.articles-section .card-wrapper .card a.main::after {
 
 section.link-list h4 {
   color: #383E74;
+  margin-top: 1rem;
 }
 section.link-list .item-title {
   color: rgba(41, 42, 53, 0.8);
 }
 section.link-list a, section.link-list a:visited, section.link-list a:hover {
   font-weight: normal;
+}
+section.link-list i.fa {
+  color: #c62828;
 }
