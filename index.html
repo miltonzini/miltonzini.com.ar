@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64997619-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -11,7 +11,9 @@
 
       gtag('config', 'UA-64997619-3');
     </script>
+	-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
+	<!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L7C2P54DNP"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -20,291 +22,357 @@
 
       gtag('config', 'G-L7C2P54DNP');
     </script>
+	-->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web Artística">
-    <meta name="author" content="Milton Zini">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+    <meta name="description" content="Milton Zini | Músico - Frontend Dev">
+    <meta name="author" content="Milton Zini | SencilloStudio">
 
-    <meta property="og:title" content="Milton Zini - Música"/>
-    <meta property="og:type" content="website"/&gt;>
+	<meta name="robots" content="noindex">
+	<meta property="og:title" content="Milton Zini | Músico"/>
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://miltonzini.com.ar/img/clases/clases-de-audioperceptiva-lenguaje-musical.jpg"/>
     <meta property="og:url" content="http://www.miltonzini.com.ar/"/>
     <meta property="og:site_name" content="Milton Zini - Música"/>
     <meta property="og:description" content="Novedades - Clases - Talleres" />
+    <title>Milton Zini | Músico</title>
 
-    <title>Milton Zini - Músico</title>
+	
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#383E74">
+	<meta name="msapplication-TileColor" content="#383E74">
+	<meta name="theme-color" content="#383E74">
 
-    <link rel="icon" type="image/png" href="favicon.ico" />
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/cssreset.css" rel="stylesheet" type="text/css">
+	<link href="css/sencillo.css" rel="stylesheet" type="text/css">
+	<link href="vendor/simple-slider/slider.css" rel="stylesheet" type="text/css">
+	
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,6abo00italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+</head>
+<body id="home">
+	<header class="header">
+		<div class="overlay has-fade"></div>
+		<nav class="container">
+			<div class="nav-wrapper flex flex-jc-sb flex-ai-c">
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.css" rel="stylesheet">
-    <style type="text/css">
-      .iframe-container{
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; 
-        height: 0;
-      }
-      .iframe-container iframe{
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+				<a href="#" class="header__textlogo">
+					<h2 class="name">Milton Zini</h2>
+				<h3 class="description">Guitarrista | Compositor</h3>
+			</a>
 
+			<a id="btnHamburguer" href="#" class="header__toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
 
-    </style>
+			<div class="header__links">
+				<a href="#masthead">Novedades</a>
+				<span class="slash">|</span>
+				<a href="#bio">Bio</a>
+				<span class="slash">|</span>
+				<a href="#proyectos">Proyectos</a>
+				<span class="slash">|</span>
+				<a href="#clases">Clases</a>
+				<span class="slash">|</span>
+				<a href="#contact">Contacto</a>
+			</div>
+			</div>
+		</nav>
+	
+		
+		<div class="header__menu has-fade">
+			<a class="header__menu__anchor" href="#masthead">Novedades</a>
+			<a class="header__menu__anchor" href="#bio">Bio</a>
+			<a class="header__menu__anchor" href="#proyectos">Proyectos</a>
+			<a class="header__menu__anchor" href="#clases">Clases</a>
+			<a class="header__menu__anchor" href="#contact">Contacto</a>
+		</div>
+	</header>
 
-  </head>
+	<section id="masthead" class="img-and-description">
+		<div class="row-container">
+			<div class="row">
+				<div class="img"><img src="img/misc/nocturno-concepto-milton-zini.jpg" alt="Concepto para tapa de disco Nocturno"></div>
+				<div class="text">
+					<h3>Nocturno</h3>
+					<p>Album con 16 composiciones instrumentales en formato trío (2 guitarras y bajo) con una impronta de obra descriptiva. Se trata de un gran desafío personal ya que interpreto todos los instrumentos además de encargarme de la grabación y mezcla.</p>
+					<p>Se encuentra en proceso de grabación y la publicación estimada es para comienzos del 2023. Pronto publicaré más información en esta misma sección.</p>
+			</div>
+		</div>
 
-  <body id="page-top">
+		<!--
+		<h2 class="sm">lorem</h2>
+		<h3 class="lg">lorem lorem</h3> -->
+	</section>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Milton Zini</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#videos">Videos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Bio</a>
-            </li>
-            <!--
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#audios">Audios</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#clases">Clases</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="clases/descargas.html"><i class="fa fa-angle-double-right"></i> Descargas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
-            </li>
-            <!--
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#" target="_blank"><i class="fa fa-arrow-up"></i> Blog</a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header class="masthead">
-      <div class="header-content">
-        <div class="header-content-inner">
-          <h1 id="homeHeading"><span class="bg-text">Milton Zini</span></h1>
-          <h2><span class="bg-text">Guitarra - Composición - Arreglos</span></h2>
-        </div>
-      </div>
-    </header>
-
-    <section class="bg-gradient-left" id="videos">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Videos</h2>
-            <hr class="primary">
-          </div>
-        </div>
-      </div>
-      <div class="container wrapper">
-        <div class="row text-center">
-          
-          
-            <div class="col-md-12 videoscontainer videob">
-              <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_sZN49Jsduk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="description">
-                <h2>"Precious" (Cover)</h2>
-                <p>(arreglo y producción)</p>
-              </div>
-            </div>
-            
-            <div class="col-md-12 videoscontainer videob">
-              <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iDzv60Depus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="description">
-                <h2>"De Nuevo" (Instrumental)</h2>
-                <p>(composición e interpretación)</p>
-              </div>
-            </div>
-
-            <div class="col-md-12 videoscontainer videoa">
-              <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7JcUfEUcD5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="description">
-                <h2></h2>
-                <p>(música para imagen con instrumentos virtuales)</p>
-                <p><a href="https://instagram.com/micro_historias_"><i class="fa fa-instagram"></i> micro_historias_</a></p>
-              </div>
-            </div>
-
-            <div class="col-md-12 videoscontainer videoa">
-              <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fp2Gwb6lRHA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="description">
-                <h2>"Canto a los Hombres del Pan Duro" (Teresa Parodi)</h2>
-                <p>Ficus Dúo</p>
-                <p>(arreglo propio)</p>
-              </div>
-            </div>
-            
-
-            <div class="col-md-12 videoscontainer videob">
-              <div class="iframe-container">
-                <iframe width="560" height="315" src="https://youtube.com/embed/OL3yG5WEiDE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="description">
-                <h2>"Overjoyed" (Stevie Wonder)</h2>
-                <p>(arreglo breve)</p>
-              </div>
-            </div>
-
-            
-          </div>
-      </div>
-    </section>
+	<section id="bio">
+		<div class="row-container">
+			<div class="row grid">
+				<div class="text">
+					<h3>Bio</h3>
+					<p>Soy guitarrista y compositor. Cursé estudios de Guitarra, Violín y Composición en el Conservatorio Manuel de Falla y en la Universidad Nacional de las Artes. Me encuentro en constante formación tanto en esos espacios como en talleres y clases particulares.</p>
+					<p>Actualmente me dedico a dar clases de instrumento, teoría musical y composición de música popular, además de componer e investigar en cada rato libre.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-    <section class="darkbg" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Sobre Mí</h2>
-            <hr class="light">
-            <p class="text-faded">Soy guitarrista, compositor y arreglador. Me encuentro cursando la Tecnicatura en Violín en el Conservatorio Manuel de Falla, y la Tecnicatura en Composición de Arreglos Musicales en la Universidad Nacional de las Artes. Fui parte de varias agrupaciones en las que abordamos diferentes estilos: fusión, rock progresivo, blues, folklore, etc. Me dedico a dar clases y talleres, acompañar cantantes y hacer arreglos para otros músicos.</p>
-            <p class="text-faded">Grabé 2 discos de estudio junto a <strong>Media Octava</strong>: <a href="https://open.spotify.com/album/3BJHQgxAIKt2wfsQqwppsR?si=r7hUJUv6T0ioAdG8-8hFWQ" target="_blank">"La Abolición de los Rascacielos"</a> (2019) y <a href="https://open.spotify.com/album/3CnHJRznF5Uycs9diXF8Ot" target="_blank">"Anacrónico"</a> (2014).
-              <br><!--<a class="softlink" href="#">(<i class="fa fa-arrow-right"></i> más info)</a>-->
-            </p>
-            <p class="text-faded">Actualmente estoy grabando <strong>Nocturno</strong>, mi primer trabajo solista con composiciones instrumentales propias.
-              <br><!--<a class="softlink" href="#">(<i class="fa fa-arrow-right"></i> más info)</a>-->
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+	<section id="videos">
+		<div class="row">
+			<div class="section-title-left"><h3>Videos</h3></div>
+		</div>
+		<div class="slider" data-slider-paused="true">
+			<div class="slide slide-1">
+				<div class="row">
+					<div class="slider-mz grid">
+						<div class="video">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/rgycKOcKVag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+						</div>
+						<div class="text">
+							<h4 class="title">Premonición</h4>
+							<p class="description">Canción compuesta en el año 2018 y publicada recientemente en esta versión para guitarras y voz.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-2">
+				<div class="row">
+					<div class="slider-mz grid">
+						<div class="video">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/_sZN49Jsduk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+						</div>
+						<div class="text">
+							<h4 class="title">Precious (Esperanza Spalding)</h4>
+							<p class="description">Arreglo, interpretación y producción a mi cargo, junto a la cantante Ivana Schumilchuk.</p>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-3">
+				<div class="row">
+					<div class="slider-mz grid">
+						<div class="video">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/iDzv60Depus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+						</div>
+						<div class="text">
+							<h4 class="title">De Nuevo</h4>
+							<p class="description">Versión breve de esta pieza instrumental para trío (2 guitarras + bajo) que dió origen a "Nocturno". La versión que figurará en el disco será un arreglo extendido.</p>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-4">
+				<div class="row">
+					<div class="slider-mz grid">
+						<div class="video">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/7JcUfEUcD5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+						</div>
+						<div class="text">
+							<h4 class="title">Micro Historias: En casa</h4>
+							<p class="description">Micrometraje con música original. Instrumentos utilizados: mandolina, guitarra clásica, guitarra eléctrica, violín e instrumentos virtuales (vst).</p>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-5">
+				<div class="row">
+					<div class="slider-mz grid">
+						<div class="video">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/fp2Gwb6lRHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+						</div>
+						<div class="text">
+							<h4 class="title">Canto a los Hombres del Pan Duro (Teresa Parodi - Mario Jorge de Lellis)</h4>
+							<p class="description">Arreglo e interpretación junto a la cantante Ingrid Fainstein Oliveri (Ficus Dúo). Mezcla y Mastering a cargo de Estudio "La Escena de Crímen".</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-6">
+				<div class="row">
+					<div class="slider-mz grid">
+						<div class="video">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/OL3yG5WEiDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+						</div>
+						<div class="text">
+							<h4 class="title">Overyjoyed (Stevie Wonder)</h4>
+							<p class="description">Arreglo breve con guitarras, percusión corporal y cotidiófonos.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!--
-    <section class="bg-gradient-left" id="audios">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Audios</h2>
-            <hr class="primary">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="col-xs-12 col-md-12">
-              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/616458156&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-            </div>
-            <div class="col-xs-12 col-md-12">
-              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/616458867&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-            </div>
-            <div class="col-xs-12 col-md-12">
-              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/692324326&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
+	<section id="proyectos">
+		<div class="row">
+			<div class="section-title-left"><h3>Proyectos</h3></div>
+		</div>
+		<div class="row grid">
+			<div class="left-title"><h4>Actuales</h4></div>
+		</div>
 
-    <section class="bg-solid" id="clases">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Clases / Talleres</h2>
-            <hr class="primary">
-            <p>Me encuentro dando clases de <strong>Guitarra</strong>, <strong>Audioperceptiva</strong> (Lenguaje Musical), <strong>Armonía</strong>, <strong>Finale</strong> e <strong>Introducción a la Composición</strong>. Por el momento las clases son en modalidad virtual.</p>
-            <a href="clases.html">(<i class="fa fa-arrow-right"></i> más info)</a>
-            
+		<!--
+		<div class="row grid">
+			<div class="left-title item-title"><h5>Musicar</h5></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="left-grid-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque ratione recusandae itaque minima ad et quibusdam adipisci. Tenetur vitae ducimus earum illo vero odio mollitia provident alias veniam nihil!
+				Magnam dolores ex quo sapiente! quo tempore sapiente ratione laudantium beatae recusandae quasi, quam similique. Officia aliquam numquam omnis veritatis expedita beatae, ut, rerum mollitia ab voluptatem quibusdam magnam.
+				<br />
+				<a href="#">leer más</a>
+				</p>
+			</div>
+		</div>
+		-->
 
-          </div>
-        </div>
-      </div>
-    </section>
+		<div class="row grid">
+			<div class="left-title item-title"><h5>Libro: Armonía para Guitarristas Autodidactas.</h5></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="left-grid-text">Me encuentro redactando este libro que recopila parte de lo que fui enseñando y aprendiendo en los últimos años, siempre a medio camino entre la música popular y la académica.  El objetivo es que aquella persona que tenga un dominio inicial o intermedio del instrumento pueda profundizar en audioperceptiva, armonía y lenguaje musical para luego aplicarlo al repertorio, la composición o el arreglo.
+				<!--
+				<br />
+				<a href="#">leer más.</a>
+				</p> -->
+			</div>
+		</div>
+
+		<div class="row grid">
+			<div class="left-title item-title"><h5>Micro Historias</h5></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="left-grid-text">Micrometrajes con música orignal, campo de experimentación personal en el campo de la música para imagen.
+				<br />
+				<a href="https://youtube.com/playlist?list=PLsxiRa__Uv0tZHfkX3kKOmMAtqwMZ_Sfa" target="_blank">ver en youtube</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="row grid">
+			<div class="right-title"><h4>Anteriores</h4></div>
+		</div>
+		<div class="row grid">
+			<div class="right-title item-title"><h5>Media Octava</h5></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="right-grid-text">Banda de Rock progresivo fundada en 2012 con quienes grabamos dos discos: <a href="https://open.spotify.com/album/3BJHQgxAIKt2wfsQqwppsR?si=r7hUJUv6T0ioAdG8-8hFWQ">La Abolición de los Rascacielos</a> (2019) y <a href="https://open.spotify.com/album/3CnHJRznF5Uycs9diXF8Ot">Anacrónico</a> (2014)</p>
+			</div>
+		</div>
+		<div class="row grid">
+			<div class="right-title item-title"><h5>Ficus Dúo</h5></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="right-grid-text">Dúo formado junto a la cantante Ingrid Fainstein Oliveri. Folklore latinoamericano y canciones propias
+				<br />
+				<a href="https://www.youtube.com/watch?v=fp2Gwb6lRHA&ab_channel=FicusDuo" target="_blank">ver video</a>
+				</p>
+			</div>
+		</div>
+		<div class="row grid">
+			<div class="right-title item-title"><h5>Ex Nihil</h5></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="right-grid-text">Dúo formado en 2013 junto a Joel Ferraris. Composiciones propias y arreglos de música latinoamericana
+				<!-- 
+				<br />
+				<a href="#">leer más</a>
+				</p>-->
+			</div>
+		</div>
+	</section>
 
 
-    <section class="bg-gradient-left social" id="contact">
-      <div class="container">
-        <div class="row social">
-          <div class="socialwrapper">
-            <a href="https://www.facebook.com/miltonzinimusica" target="_blank">
-              <i class="fa fa-facebook fa-3x sr-contact"></i>
-              <p>Facebook</p>
-            </a>
-          </div>
-          <div class="socialwrapper">
-            <a href="https://www.instagram.com/miltonzini" target="_blank">
-              <i class="fa fa-instagram fa-3x sr-contact"></i>
-              <p>Instagram</p>
-            </a>
-          </div>
-          <div class="socialwrapper">
-            <a href="https://www.youtube.com/user/miltonzini2" target="_blank">
-              <i class="fa fa-youtube fa-3x sr-contact"></i>
-              <p>Youtube</p>
-            </a>
-          </div>
-          <div class="socialwrapper">
-            <a href="https://www.soundcloud.com/milton-zini" target="_blank">
-              <i class="fa fa-soundcloud fa-3x sr-contact"></i>
-              <p>SoundCloud</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
 
+	<section id="clases">
+		<div class="row">
+			<div class="section-title-left"><h3>Clases</h3></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="left-grid-text">Dicto clases de Guitarra, Audioperceptiva, Armonía e Introducción a la Composición. Las mismas pueden ser en modalidad virtual o de forma presencial en el Centro Cultural La Panadería (Morón).
+				<br />
+				<a href="clases.html">Más información</a>
+				<br />
+				<a href="clases/descargas.html">Material para estudiantes</a>
+				</p>
+			</div>
+		</div>
+	</section>
 
-    <div class="call-to-action bg-dark">
-      <div class="container text-center">
-        <h2>Contacto</h2>
-        <h3>miltonzini@gmail.com</h3>
-        <h3>(+54) 11-6598-1357</h3>
-      </div>
-    </div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<section id="contact">
+		<div class="row">
+			<div class="section-title-left"><h3>Contacto</h3></div>
+		</div>
+		<div class="row-container">
+			<div class="row grid">
+				<p class="left-grid-text">Podés escribirme por clases, transcripciones, encargos, colaboraciones o simplemente para saludar!
+				<br />
+				<a href="mailto: miltonzini@gmail.com" target="_blank">miltonzini@gmail.com</a>
+				</p>
+			</div>
+			<div class="row grid">
+				<p class="social-icons">
+					<a href="https://www.facebook.com/miltonzinimusica" target="_blank"><img class="icon" src="img/misc/facebook.svg" alt="Facebook icon"></a>
+					<a href="https://twitter.com/miltonzini" target="_blank"><img class="icon" src="img/misc/twitter.svg" alt="Twitter icon"></a>
+					<a href="https://www.instagram.com/miltonzini" target="_blank"><img class="icon" src="img/misc/instagram.svg" alt="Instagram icon"></a>
+					<!-- <a href="#" target="_blank"><img class="icon" src="img/misc/spotify.svg" alt="Spotify icon"></a> -->
+					<a href="https://www.youtube.com/user/miltonzini2" target="_blank"><img class="icon" src="img/misc/youtube.svg" alt="YouTube icon"></a>
+					<a href="https://soundcloud.com/milton-zini" target="_blank"><img class="icon" src="img/misc/soundcloud.svg" alt="SoundCloud icon"></a>
+				</p>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+			</div>
+		</div>
+	</section>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+	
+	
 
-    <!-- Youtube -->
+	<!--
+	<section class="temp">
+		<div class="row-container">
+			<div class="row grid">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa nisi molestiae maiores incidunt dicta, voluptatum vero quae officiis laboriosam voluptatibus voluptatem culpa neque, </p>
+			</div>
+		</div>
+	</section>
+	-->
+	
 
-  </body>
-
+	<section class="footer">
+		<div class="row-container">
+			<div class="row">
+				<p>Desarrollo Web: <a href="https://github.com/miltonzini" target="_blank"><strong>MZ</strong></a> y <a href="https://sencillostudio.ar" target="_blank"><strong>SencilloStudio.ar</strong></a></p>
+			</div>
+		</div>
+	</section>
+	
+	<script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("nav");
+			header.classList.toggle("sticky", window.scrollY > 50);
+		})
+	</script>
+	<script src="js/script.js"></script>
+	<script src="vendor/simple-slider/slider.js"></script>
+</body>
 </html>

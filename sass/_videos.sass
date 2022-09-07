@@ -1,45 +1,33 @@
-#videos
- .videoscontainer
-  margin: 5px 1em
-  padding: 0.25em
-  box-shadow: 1px 1px 7px 0px #aeaeae
-  border: 1px solid #f3e1e1
-    border-radius: 3px
-    -moz-border-radius: 3px
-    -webkit-border-radius: 3px
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(200,200,200,0.1)
-  background-image:-webkit-gradient(linear,left bottom,left top,from(#ededed6b ),to(#FFF))!important
-  background-image:-webkit-linear-gradient(bottom,#ededed6b  0,#FFF 100%)!important
-  background-image:-o-linear-gradient(bottom,#ededed6b  0,#FFF 100%)!important
-  background-image:linear-gradient(to top,#ededed6b  0,#FFF 100%)!important
-  background-image:linear-gradient(to top,#ededed6b  0,#FFF 100%)!important
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed6b ', endColorstr='#FFF', GradientType=0)!important
- //.videoa
- // background-color: rgba(221, 221, 221, 0.67)
- //.videob
- // background-color: rgba(221, 221, 221, 0.67)
- .description
-  color: #333
-  text-align: right
-  font-size: 14px
-  padding-top: 0.5em
-  padding-bottom: 0.3em
-  h2
-   font-weight: bold
-   font-family: inherit
-   margin: 0px
-   font-size: 0.8em
-  p
-   font-family:inherit
-   font-size: 0.8em
-   margin: 0px
-  .fa 
-    font-size: 1.25em
-    vertical-align: middle
- @media (min-width: 992px)
-   .wrapper
-    max-width: 60vw  
-    display: flex
-    justify-content: center
-    text-align: center
-    align-items: center
+section#videos
+    padding: 50px 20px
+    color: $theme-dark
+    background: $white
+
+    
+    .slider-mz
+        display: grid
+        grid-column-gap: 5px
+        width: 100%
+        padding-left: 2rem
+        padding-right: 2rem
+        .video
+            @media (max-width: 850px)
+                grid-column: 1 / 17
+            @media (min-width: 851px)
+                grid-column: 3 / 8
+                
+        .text
+            @media (max-width: 850px)
+                grid-column: 1 / 17
+                padding-top: 1rem
+            @media (min-width: 851px)
+                grid-column: 8 / 16
+                padding-left: 2rem
+    
+    // temp
+    .slide
+        width: 100%
+
+        .row
+            padding-left: 0
+            padding-right: 0

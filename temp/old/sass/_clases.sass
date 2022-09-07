@@ -1,0 +1,191 @@
+body#page-top
+  #clases
+    padding: 120px 0px
+#clases
+  .module   
+    //display: flex
+    //align-items: center
+    //justify-content: center
+    //   
+    //con eso y metiendo un textwrapper en los module se puede mejorar el comportamiento responsive. 
+    //Hay que corregir también los mediaqueries
+    ///
+    overflow: hidden
+    padding: 15px 15px 15px 15px
+    margin-top: 5px!important
+    margin-bottom: 5px!important
+    border: 1px solid #f3e1e1
+    border-radius: 3px
+    -moz-border-radius: 3px
+    -webkit-border-radius: 3px
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(200,200,200,0.1)
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#ededed6b ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(top,#ededed6b  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(top,#ededed6b  0,#FFF 100%)!important
+    background-image:linear-gradient(to bottom,#ededed6b  0,#FFF 100%)!important
+    background-image:linear-gradient(to bottom,#ededed6b  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed6b ', endColorstr='#FFF', GradientType=0)!important
+    a
+      color:inherit!important
+    img 
+      background-color:#c9f966
+      box-shadow: 1px 1px 1px #999
+      &.left
+        float: left
+        @media (min-width: 351px)
+          margin-right: 0.8em
+      &.right
+        float: right
+        @media (min-width: 351px)
+          margin-left: 0.8em
+      @media (max-width: 350px)
+        margin-bottom: 3em
+        border-bottom: 2em
+      @media (min-width: 351px) and (max-width: 390px)
+        height: 165px!important
+        width: auto
+      @media (min-width: 391px) and (max-width: 480px)
+        height: 165px!important
+        width: auto
+        margin-bottom: 0.3em
+        &.left
+          margin-right: 3em!important
+        &.right
+          margin-left: 3em!important
+      @media (min-width: 481px) and (max-width: 768px)
+        width: 116px!important
+        height: 180px!important
+    .imgwrapper
+      @media (max-width: 389px)
+        display: flex
+        justify-content: center!important
+      @media (max-width: 317px)
+        margin-bottom: 1em
+      @media (min-width: 318px) and (max-width: 389px)
+        margin-bottom: 1.5em
+
+    h3
+      font-weight: bold
+      margin-top: 0px
+      @media (max-width: 480px)
+        font-size: 1em
+      @media (min-width: 481px) and (max-width: 768px)
+        font-size: 1em
+    p
+      &.text-right
+        margin: 0px
+        color:#991429
+        line-height: 1em
+      @media (max-width: 480px)
+        font-size: 0.80em
+      @media (min-width: 481px) and (max-width: 768px)
+        font-size: 0.85em
+
+body.clases
+  .section-heading
+    margin-top: 1.2em
+  .module
+    display: flex
+    align-items: center
+    max-width: 16em
+    max-height: 6em
+    border-color: rgba(243, 225, 225, 0.65)!important
+    h3
+      vertical-align: middle
+    overflow: hidden
+    border: 1px solid #f3e1e1
+    border-radius: 3px
+    -moz-border-radius: 3px
+    -webkit-border-radius: 3px
+    margin: 0.5em auto 0.5em auto
+    text-align: left
+  img
+    float: left
+    max-height: 6em
+    width: auto
+    margin-right: 1.5em
+
+.smallmodulewrapper
+  display: flex
+  align-items: center
+  justify-content: center
+.smallmodule   
+    overflow: hidden
+    width: 20em
+    padding: 1px
+    margin-top: 25px!important
+    margin-bottom: 5px!important
+    border: 1px solid #f3e1e1
+    border-radius: 3px
+    -moz-border-radius: 3px
+    -webkit-border-radius: 3px
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(200,200,200,0.1)
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#ededed6b ),to(#FFF))!important
+    background-image:-webkit-linear-gradient(top,#ededed6b  0,#FFF 100%)!important
+    background-image:-o-linear-gradient(top,#ededed6b  0,#FFF 100%)!important
+    background-image:linear-gradient(to bottom,#ededed6b  0,#FFF 100%)!important
+    background-image:linear-gradient(to bottom,#ededed6b  0,#FFF 100%)!important
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed6b ', endColorstr='#FFF', GradientType=0)!important
+    display: flex
+    align-items: center
+    h3
+      font-size: 1rem
+    a
+      color:inherit!important
+    p
+      margin-bottom: 0px
+    img 
+      background-color:#c9f966
+      box-shadow: 1px 1px 1px #999
+      &.left
+        float: left
+        @media (min-width: 351px)
+          margin-right: 0.8em
+      &.right
+        float: right
+        @media (min-width: 351px)
+          margin-left: 0.8em
+      @media (max-width: 350px)
+        margin-bottom: 3em
+        border-bottom: 2em
+      //@media (min-width: 351px) and (max-width: 390px)
+      //  height: 165px!important
+      //  width: auto
+      //@media (min-width: 391px) and (max-width: 480px)
+      //  height: 165px!important
+      //  width: auto
+      //  margin-bottom: 0.3em
+      //  &.left
+      //    margin-right: 3em!important
+      //  &.right
+      //    margin-left: 3em!important
+      //@media (min-width: 481px) and (max-width: 768px)
+      //  width: 116px!important
+      //  height: 180px!important
+    .imgwrapper
+      @media (max-width: 389px)
+        display: flex
+        justify-content: center!important
+      //@media (max-width: 317px)
+      //  margin-bottom: 1em
+      //@media (min-width: 318px) and (max-width: 389px)
+      //  margin-bottom: 1.5em
+    .textwrapper
+      //background-color: yellow
+
+    h3
+      font-weight: bold
+      margin-top: 0px
+      @media (max-width: 480px)
+        font-size: 1em
+      @media (min-width: 481px) and (max-width: 768px)
+        font-size: 1em
+    p
+      &.text-right
+        margin: 0px
+        color:#991429
+        line-height: 1em
+      @media (max-width: 480px)
+        font-size: 0.80em
+      @media (min-width: 481px) and (max-width: 768px)
+        font-size: 0.85em
