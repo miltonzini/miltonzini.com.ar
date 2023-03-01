@@ -1,0 +1,8 @@
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Redirect /clases https://miltonzini.com.ar/clases.html
+Redirect /abc https://miltonzini.com.ar/clases/descargas.html
+
+ErrorDocument 404 https://miltonzini.com.ar
